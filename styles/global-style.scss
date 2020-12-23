@@ -1,0 +1,140 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family:'Work Sans', sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  
+  code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+      monospace;
+}
+
+//colors
+$color-neutral-darkest : #000000;
+$color-neutral-dark :#747880;
+$color-neutral-medium : #D6D7DA;
+$color-neutral-light : #EFF0F1;
+$color-neutral-lightest : #FFFFFF;
+
+$azul-roxellana : #0273E8;
+$branco-uacari : #FFFFFF;
+$preto-prego : #1E232C;
+$off-black : #364254;
+
+$amarelo-guariba: #E3B839;
+$rosa-mandril : #CE596D;
+$gorilla-roxo : #744DA6;
+$verde-folha : #009966;
+
+$banco-bnp : #009966;
+$banco-bradesco : #CC092F;
+$banco-voiter : #36264D;
+$banco-itau : #EC7000;
+$banco-sofisa : #17B497;
+$banco-inter : #FF8700;
+$icons-blue :  #153446;
+
+$gray-600 : #4B4A53;
+$gray-500 : #72717E;
+$gray-400 : #9C9CA6;
+$gray-300 : #D6D6D6;
+$gray-100 : #F5F5F5;
+
+@mixin flexCenter {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+@mixin flexSpace($space) {
+    display: flex;
+    justify-content: $space;
+    align-content: center;
+}
+
+@mixin flexDirection ($direction) {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: $direction;
+}
+
+@mixin btn-medium-full($height) {
+    width: 40px;
+    height: $height;
+    background: $azul-roxellana;
+    border-radius: 8px;
+    border: none;
+    color: $branco-uacari;
+}
+
+@mixin btn-medium-border($height) {
+    width: 219px;
+    height: $height;
+    border: 1px solid $azul-roxellana;
+    box-sizing: border-box;
+    border-radius: 8px;
+    color :  $azul-roxellana;
+    background: transparent;
+    font-weight: 650;
+}
+
+@mixin main-text($color , $size) {
+    color: $color;
+    font-size: $size;
+}
+
+// General Styles
+
+.canva-geral{
+    padding: 3.5rem 3.5rem 0px;
+}
+.first-block{
+    background: $gray-100;
+    border-radius: 2rem;
+}
+
+.link-style{
+    text-decoration: underline !important;
+    font-size: 1.25rem;
+    font-weight: 600;
+}
+
+.border-test{
+    border: 1px solid black;
+}
+
+.title-h2{
+    @include main-text($gray-600, 2rem);
+    font-weight: bold;
+    padding-right: 2rem;
+}
+
+// Nav Bar Styles
+.main-nav {
+  height: 7rem;
+  border-bottom: 0.5px solid $gray-300;
+  
+  .monkey-logo {
+    height: 1.5rem;
+  }
+  .container-nav {
+    @include flexSpace(space-between);
+    width: 100%;
+    li{
+        list-style-type: none;
+        a {
+            color: $gray-600 !important;
+          }
+    }
+
+  }
+  .btn-full-nav {
+    @include btn-medium-full(40px);
+  }
+  .btn-border-nav {
+    @include btn-medium-border(40px);
+  }
+}

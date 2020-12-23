@@ -1,0 +1,88 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Work Sans', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
+}
+
+.canva-geral {
+  padding: 3.5rem 3.5rem 0px;
+}
+
+.first-block {
+  background: #F5F5F5;
+  border-radius: 2rem;
+}
+
+.link-style {
+  text-decoration: underline !important;
+  font-size: 1.25rem;
+  font-weight: 600;
+}
+
+.border-test {
+  border: 1px solid black;
+}
+
+.title-h2 {
+  color: #4B4A53;
+  font-size: 2rem;
+  font-weight: bold;
+  padding-right: 2rem;
+}
+
+.main-nav {
+  height: 7rem;
+  border-bottom: 0.5px solid #D6D6D6;
+}
+
+.main-nav .monkey-logo {
+  height: 1.5rem;
+}
+
+.main-nav .container-nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  width: 100%;
+}
+
+.main-nav .container-nav li {
+  list-style-type: none;
+}
+
+.main-nav .container-nav li a {
+  color: #4B4A53 !important;
+}
+
+.main-nav .btn-full-nav {
+  width: 40px;
+  height: 40px;
+  background: #0273E8;
+  border-radius: 8px;
+  border: none;
+  color: #FFFFFF;
+}
+
+.main-nav .btn-border-nav {
+  width: 219px;
+  height: 40px;
+  border: 1px solid #0273E8;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border-radius: 8px;
+  color: #0273E8;
+  background: transparent;
+  font-weight: 650;
+}
+/*# sourceMappingURL=global-style.css.map */
