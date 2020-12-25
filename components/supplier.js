@@ -3,7 +3,6 @@ class Supplier extends HTMLElement {
     super();
   }
   connectedCallback() {
-    console.log("holi");
     this.innerHTML = `
         <div class="container-fluid">
           <div class="row">

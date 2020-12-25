@@ -197,6 +197,7 @@ $gray-100: #f5f5f5;
   .container-logo-two {
     @include flexSpace(space-around);
     padding-bottom: 7.5rem;
+    align-items: center;
   }
   .container-logo-three {
     @include flexSpace(space-evenly);
@@ -206,4 +207,192 @@ $gray-100: #f5f5f5;
 .brand-size {
   width: auto !important;
   height: 2.5rem;
+}
+
+//Company Style
+.main-company {
+  background: $color-neutral-light;
+  h2 {
+    padding-right: 7rem;
+  }
+}
+
+.company-text-container {
+  @include flexDirection(column);
+  padding-right: 6rem;
+}
+.row-company {
+  padding: 0 3.5rem;
+  margin-right: 0;
+  margin-left: 0;
+}
+
+.btn-company {
+  @include btn-medium-full(40px);
+  width: 151px;
+  box-shadow: -8px 12px 11px rgba(2, 115, 232, 0.1);
+  margin-top: 5.5rem;
+}
+// .company-banner {
+//   width: inherit;
+// }
+.icons-container-left {
+  padding: 4rem 0;
+}
+
+//Products style
+.first-block {
+  // background: $color-neutral-light;
+  height: 40%;
+}
+.second-block {
+  background: $color-neutral-lightest;
+  height: 60%;
+}
+.products-container {
+  background: $azul-roxellana;
+  padding-left: 5.5rem !important;
+  padding-right: 6rem !important;
+  padding-bottom: 3rem !important;
+  border-radius: 16px 0px 0px 16px;
+  .title-product {
+    padding-left: 3.5rem;
+    h4 {
+      color: $branco-uacari;
+      font-weight: 400 !important;
+    }
+  }
+  .product-card-container {
+    padding-left: 2.5rem;
+    .product-card {
+      background: $gray-100;
+      border: 1px solid $gray-300;
+      box-sizing: border-box;
+      border-radius: 8px;
+      filter: drop-shadow(-8px 12px 28px rgba(21, 52, 70, 0.49));
+    }
+    .product-text {
+      padding: 2rem 1.5rem;
+      height: 20.5rem;
+    }
+  }
+}
+
+//Investor styles
+.investor-company{
+  background: transparent;
+  h2 {
+      padding-right: 7rem;
+    }
+}
+
+.btn-investor{
+      @include btn-medium-full(40px);
+      width: 151px;
+      box-shadow: -8px 12px 11px rgba(2, 115, 232, 0.1);
+    border-radius: 8px;
+box-shadow: -8px 12px 11px rgba(2, 115, 232, 0.1);
+background: $verde-folha;
+
+}
+
+//Contact styles
+.contact-container{
+    padding: 0 3.5rem;
+    margin-bottom: -13.5rem;
+}
+
+.contact-background{
+  background: $off-black;
+  height: 13.5rem;
+}
+
+.contact-text-container{
+    @include  flexDirection(column);
+    background: $color-neutral-light ;
+    border-radius: 16px 0px 0px 16px;
+}
+
+.contact-form-container{
+    // @include  flexDirection(column);
+    background: $color-neutral-light ;
+    border-radius: 0px 16px 16px 0px;
+}
+
+.contact-header{
+    @include main-text($gray-600, 3rem);
+    font-weight: 700 !important;
+}
+
+.contact-text{
+    @include main-text($gray-600, 1.25rem);
+}
+
+.label-text{
+    @include main-text($gray-600, 18px);
+    font-weight: 500;
+    input{
+      background: $gray-100 !important;
+      border: 1px solid $gray-300;
+    }
+}
+
+.radio-text{
+    @include main-text($gray-600, 14px);
+}
+
+.submit-button{
+@include btn-medium-full(48px);
+width: 100%;
+}
+
+//Footer styles
+.footer-container {
+  background: $off-black;
+}
+.logo-monkey{
+  width: 131px !important;
+}
+.row-logo {
+  @include flexCenter();
+  padding: 5rem 0 2.5rem 0;
+}
+.row-copyright {
+  @include flexCenter();
+  padding:2.5rem 0;
+  text-align: center;
+}
+.container-titles {
+  padding: 0 8.8rem;
+}
+.titles-footer {
+  line-height: 24px;
+  h6 {
+    @include main-text($branco-uacari, 18px);
+    font-weight: 400;
+    padding-bottom: 1.5rem;
+  }
+  p {
+    color: $color-neutral-dark;
+  }
+}
+.container-icons {
+  padding-right: 5rem;
+}
+.copyright-footer {
+  @include main-text($branco-uacari, 14px);
+  a {
+    text-decoration: underline;
+    color: $branco-uacari;
+  }
+}
+.radio-input {
+  color: $branco-uacari;
+  margin-right: 2.5rem;
+}
+.lenguage-row {
+  @include flexSpace(flex-end);
+  flex-direction: row;
+  background: $preto-prego;
+  padding: 1.5rem 3.5rem;
 }
