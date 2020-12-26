@@ -87,7 +87,6 @@ $gray-100: #f5f5f5;
 }
 
 // General Styles
-
 .canva-geral {
   padding: 3.5rem 3.5rem 0px;
 }
@@ -103,7 +102,7 @@ $gray-100: #f5f5f5;
 }
 
 .border-test {
-  border: 1px solid black;
+  border: 1px solid transparent;
 }
 
 .title-h2 {
@@ -181,29 +180,28 @@ $gray-100: #f5f5f5;
 .container-brand {
   padding-top: 10rem;
 }
-  .container-text {
-    @include flexCenter();
-    padding-bottom: 4rem;
-  }
-  .brand-text {
-    @include main-text($off-black, 2rem);
-    font-weight: 300;
-    text-align: center;
-  }
-  .container-logo-one {
-    @include flexSpace(space-around);
-    padding-bottom: 4rem;
-  }
-  .container-logo-two {
-    @include flexSpace(space-around);
-    padding-bottom: 7.5rem;
-    align-items: center;
-  }
-  .container-logo-three {
-    @include flexSpace(space-evenly);
-    padding-bottom: 7.5rem;
-  }
-
+.container-text {
+  @include flexCenter();
+  padding-bottom: 4rem;
+}
+.brand-text {
+  @include main-text($off-black, 2rem);
+  font-weight: 300;
+  text-align: center;
+}
+.container-logo-one {
+  @include flexSpace(space-around);
+  padding-bottom: 4rem;
+}
+.container-logo-two {
+  @include flexSpace(space-around);
+  padding-bottom: 7.5rem;
+  align-items: center;
+}
+.container-logo-three {
+  @include flexSpace(space-evenly);
+  padding-bottom: 7.5rem;
+}
 .brand-size {
   width: auto !important;
   height: 2.5rem;
@@ -216,7 +214,6 @@ $gray-100: #f5f5f5;
     padding-right: 7rem;
   }
 }
-
 .company-text-container {
   @include flexDirection(column);
   padding-right: 6rem;
@@ -226,23 +223,19 @@ $gray-100: #f5f5f5;
   margin-right: 0;
   margin-left: 0;
 }
-
 .btn-company {
   @include btn-medium-full(40px);
   width: 151px;
   box-shadow: -8px 12px 11px rgba(2, 115, 232, 0.1);
   margin-top: 5.5rem;
 }
-// .company-banner {
-//   width: inherit;
-// }
 .icons-container-left {
   padding: 4rem 0;
 }
 
 //Products style
 .first-block {
-  // background: $color-neutral-light;
+  background: $color-neutral-light;
   height: 40%;
 }
 .second-block {
@@ -279,78 +272,148 @@ $gray-100: #f5f5f5;
 }
 
 //Investor styles
-.investor-company{
+.investor-company {
   background: transparent;
   h2 {
-      padding-right: 7rem;
-    }
+    padding-right: 7rem;
+  }
+}
+.btn-investor {
+  @include btn-medium-full(40px);
+  width: 151px;
+  box-shadow: -8px 12px 11px rgba(2, 115, 232, 0.1);
+  border-radius: 8px;
+  box-shadow: -8px 12px 11px rgba(2, 115, 232, 0.1);
+  background: $verde-folha;
 }
 
-.btn-investor{
-      @include btn-medium-full(40px);
-      width: 151px;
-      box-shadow: -8px 12px 11px rgba(2, 115, 232, 0.1);
-    border-radius: 8px;
-box-shadow: -8px 12px 11px rgba(2, 115, 232, 0.1);
-background: $verde-folha;
+//News styles
 
+@mixin news-container($image) {
+  @include flexDirection(column);
+  // width: 320px !important;
+  // height: 424px;
+  background-image: $image;
+  background-size: contain;
+  background-repeat: no-repeat;
+  padding: 1.5rem;
+  // margin: 0 0.5rem;
+  margin-left: 1.5rem;
+}
+.container-title {
+  @include flexCenter();
+  padding-top: 8rem;
+}
+.carousel-container {
+  position: relative;
+  padding: 3.5rem;
+  padding-bottom: 3rem;
+  .carousel-list{
+  @include flexSpace(space-around);
+}
+}
+.button-icons{
+  background-color: transparent;
+  width: 48px !important;
+  height: auto;
+  z-index: 1;
+  position: absolute;
+  top: calc(50% - 35px);
+  border: none;
+}
+.carousel-prev{
+  left: 30px;
+}
+.carousel-next{
+  right: 26px;
+}
+.news-container1 {
+  @include news-container(url(../../../images/news-1.png));
+}
+
+.news-container2 {
+  @include news-container(url(../../../images/news-2.png));
+}
+
+.news-container3 {
+  @include news-container(url(../../../images/news-3.png));
+}
+
+.news-container4 {
+  @include news-container(url(../../../images/news-4.png));
+}
+
+.data-text {
+  @include main-text($gray-400, 14px);
+  margin-top: 17rem;
+  width: 272px;
+}
+
+.title-new {
+  @include main-text($branco-uacari, 1.25rem);
+  font-weight: 600;
+  width: 272px;
+}
+
+.button-container{
+  @include flexCenter();
+  padding-bottom: 8.5rem;
+}
+
+.button-news{
+ @include btn-medium-border(48px);
+ width: 326px !important;
+ font-size: 14px;
+ font-weight: 500;
 }
 
 //Contact styles
-.contact-container{
-    padding: 0 3.5rem;
-    margin-bottom: -13.5rem;
+.contact-container {
+  padding: 0 3.5rem;
+  margin-bottom: -13.5rem;
 }
-
-.contact-background{
+.contact-background {
   background: $off-black;
   height: 13.5rem;
 }
-
-.contact-text-container{
-    @include  flexDirection(column);
-    background: $color-neutral-light ;
-    border-radius: 16px 0px 0px 16px;
+.contact-text-container {
+  @include flexDirection(column);
+  background: $color-neutral-light;
+  border-radius: 16px 0px 0px 16px;
 }
-
-.contact-form-container{
-    // @include  flexDirection(column);
-    background: $color-neutral-light ;
-    border-radius: 0px 16px 16px 0px;
+.contact-form-container {
+  // @include  flexDirection(column);
+  background: $color-neutral-light;
+  border-radius: 0px 16px 16px 0px;
 }
-
-.contact-header{
-    @include main-text($gray-600, 3rem);
-    font-weight: 700 !important;
+.contact-header {
+  @include main-text($gray-600, 3rem);
+  font-weight: 700 !important;
 }
-
-.contact-text{
-    @include main-text($gray-600, 1.25rem);
+.contact-text {
+  @include main-text($gray-600, 1.25rem);
 }
-
-.label-text{
-    @include main-text($gray-600, 18px);
-    font-weight: 500;
-    input{
-      background: $gray-100 !important;
-      border: 1px solid $gray-300;
-    }
+.label-text {
+  @include main-text($gray-600, 18px);
+  font-weight: 500;
+  input {
+    background: $gray-100 !important;
+    border: 1px solid $gray-300;
+  }
 }
-
-.radio-text{
-    @include main-text($gray-600, 14px);
+.radio-text {
+  @include main-text($gray-600, 14px);
 }
-
-.submit-button{
-@include btn-medium-full(48px);
-width: 100%;
+.submit-button {
+  @include btn-medium-full(48px);
+  width: 100%;
 }
 
 //Footer styles
 .footer-container {
   background: $off-black;
 }
-.logo-monkey{
+.logo-monkey {
   width: 131px !important;
 }
 .row-logo {
@@ -359,7 +422,7 @@ width: 100%;
 }
 .row-copyright {
   @include flexCenter();
-  padding:2.5rem 0;
+  padding: 2.5rem 0;
   text-align: center;
 }
 .container-titles {

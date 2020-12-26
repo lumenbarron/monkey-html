@@ -26,7 +26,7 @@ code {
 }
 
 .border-test {
-  border: 1px solid black;
+  border: 1px solid transparent;
 }
 
 .title-h2 {
@@ -274,6 +274,7 @@ code {
 }
 
 .first-block {
+  background: #eff0f1;
   height: 40%;
 }
 
@@ -339,6 +340,173 @@ code {
   border-radius: 8px;
   box-shadow: -8px 12px 11px rgba(2, 115, 232, 0.1);
   background: #009966;
+}
+
+.container-title {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  padding-top: 8rem;
+}
+
+.carousel-container {
+  position: relative;
+  padding: 3.5rem;
+  padding-bottom: 3rem;
+}
+
+.carousel-container .carousel-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -ms-flex-line-pack: center;
+      align-content: center;
+}
+
+.button-icons {
+  background-color: transparent;
+  width: 48px !important;
+  height: auto;
+  z-index: 1;
+  position: absolute;
+  top: calc(50% - 35px);
+  border: none;
+}
+
+.carousel-prev {
+  left: 30px;
+}
+
+.carousel-next {
+  right: 26px;
+}
+
+.news-container1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  background-image: url(../../../images/news-1.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  padding: 1.5rem;
+  margin-left: 1.5rem;
+}
+
+.news-container2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  background-image: url(../../../images/news-2.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  padding: 1.5rem;
+  margin-left: 1.5rem;
+}
+
+.news-container3 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  background-image: url(../../../images/news-3.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  padding: 1.5rem;
+  margin-left: 1.5rem;
+}
+
+.news-container4 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  background-image: url(../../../images/news-4.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  padding: 1.5rem;
+  margin-left: 1.5rem;
+}
+
+.data-text {
+  color: #9c9ca6;
+  font-size: 14px;
+  margin-top: 17rem;
+  width: 272px;
+}
+
+.title-new {
+  color: #ffffff;
+  font-size: 1.25rem;
+  font-weight: 600;
+  width: 272px;
+}
+
+.button-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  padding-bottom: 8.5rem;
+}
+
+.button-news {
+  width: 219px;
+  height: 48px;
+  border: 1px solid #0273e8;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border-radius: 8px;
+  color: #0273e8;
+  background: transparent;
+  font-weight: 650;
+  width: 326px !important;
+  font-size: 14px;
+  font-weight: 500;
 }
 
 .contact-container {
