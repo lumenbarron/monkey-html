@@ -4,7 +4,7 @@ class NavBar extends HTMLElement {
   }
   connectedCallback() {
     this.innerHTML = `
-        <nav class="main-nav navbar-expand-md navbar-light">
+        <nav class="navbar main-nav navbar-expand-md navbar-light">
         <div class="container-fluid container-nav px-0 pt-4 border-test">
           <a class="navbar-brand" href="#">
             <img src="images/monkey-logo.svg" class="monkey-logo" alt="monkey-logo" />
@@ -13,7 +13,7 @@ class NavBar extends HTMLElement {
             <span class="navbar-toggler-icon"></span>
           </button>
           <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
-            <ul class="container-nav m-0">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0 container-nav m-0">
               <li class="">
                 <a class="nav-link " aria-current="page" href="#">Fornecedores</a>
               </li>

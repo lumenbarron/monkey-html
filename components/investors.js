@@ -19,22 +19,26 @@ class Investor extends HTMLElement {
             Entenda as vantagens de ter um programa.
         </a>
         <div class="row icons-container-left m-0">
-          <div class="col-sm-12 col-md-6 col-lg-6 ">
-            <img src='./images/chart.svg' class="pb-3" alt="chart-icon" />
-            <h5 class="">Onboarding Online </h5>
-            <p class="supplier-text-icons pr-4">
-            Todos os cadastros de Fornecedor e Âncoras, é feito totalmente online. 
-            </p>
+
+        <div class="col text-icons">
+        <img src="./images/chart.svg" class="pb-3" alt="chart-icon" />
+        <div>
+        <h5 class="title-icons">Onboarding Online</h5>
+        <p class="supplier-text-icons pr-4">
+        Todos os cadastros de Fornecedor e Âncoras, é feito totalmente online. 
+        </p>
+        </div>
+      </div>    
+        <div class="col text-icons">
+          <img src='./images/calendar.svg' class="pb-3" alt="calendar-icon" />
+          <div>
+          <h5 class="title-icons">Processo Ágil e Fácil</h5>
+          <p class="supplier-text-icons">
+          Uma Plataforma intuitiva, e todos processos digitais e online.
+          </p>
           </div>
-          <div class="col-sm-12 col-md-6 col-lg-6 ">
-            <img src='./images/calendar.svg' class="pb-3" alt="calendar-icon" />
-            <h5 class="">Processo Ágil e Fácil</h5>
-            <p class="supplier-text-icons">
-            Uma Plataforma intuitiva,
-e todos processos digitais
-e online.
-            </p>
-          </div>
+        </div>
+          
         </div>
         </div>
         <div class="col-sm-12 col-md-6 col-lg-6 border-test p-0">

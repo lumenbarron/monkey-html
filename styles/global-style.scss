@@ -93,6 +93,10 @@ $gray-100: #f5f5f5;
 .first-block {
   background: $gray-100;
   border-radius: 2rem;
+  padding: 0 3rem;
+}
+.general-padding{
+  padding: 0 3rem;
 }
 
 .link-style {
@@ -102,7 +106,7 @@ $gray-100: #f5f5f5;
 }
 
 .border-test {
-  border: 1px solid transparent;
+  border: 1px solid black !important;
 }
 
 .title-h2 {
@@ -207,6 +211,20 @@ $gray-100: #f5f5f5;
   height: 2.5rem;
 }
 
+#mdias{
+  height:56px;
+}
+#kws{
+  height:64px;
+}
+#gerdau{
+  height:48px
+}
+#itau{
+  height:56px;
+}
+
+
 //Company Style
 .main-company {
   background: $color-neutral-light;
@@ -244,9 +262,10 @@ $gray-100: #f5f5f5;
 }
 .products-container {
   background: $azul-roxellana;
-  padding-left: 5.5rem !important;
-  padding-right: 6rem !important;
-  padding-bottom: 3rem !important;
+  padding: 0  5.5rem 3rem 6rem  !important ;
+  // padding-left: 5.5rem !important;
+  // padding-right: 6rem !important;
+  // padding-bottom: 3rem !important;
   border-radius: 16px 0px 0px 16px;
   .title-product {
     padding-left: 3.5rem;
@@ -281,8 +300,6 @@ $gray-100: #f5f5f5;
 .btn-investor {
   @include btn-medium-full(40px);
   width: 151px;
-  box-shadow: -8px 12px 11px rgba(2, 115, 232, 0.1);
-  border-radius: 8px;
   box-shadow: -8px 12px 11px rgba(2, 115, 232, 0.1);
   background: $verde-folha;
 }
@@ -380,11 +397,13 @@ $gray-100: #f5f5f5;
   @include flexDirection(column);
   background: $color-neutral-light;
   border-radius: 16px 0px 0px 16px;
+  padding: 0 3rem;
 }
 .contact-form-container {
   // @include  flexDirection(column);
   background: $color-neutral-light;
   border-radius: 0px 16px 16px 0px;
+  padding: 0 3rem;
 }
 .contact-header {
   @include main-text($gray-600, 3rem);
@@ -396,10 +415,15 @@ $gray-100: #f5f5f5;
 .label-text {
   @include main-text($gray-600, 18px);
   font-weight: 500;
+  padding: 1rem 0;
+
   input {
     background: $gray-100 !important;
     border: 1px solid $gray-300;
   }
+}
+.label-name{
+  padding-top: 3rem;
 }
 .radio-text {
   @include main-text($gray-600, 14px);
@@ -407,6 +431,7 @@ $gray-100: #f5f5f5;
 .submit-button {
   @include btn-medium-full(48px);
   width: 100%;
+  margin: 1.5rem 0 3rem 0;
 }
 
 //Footer styles

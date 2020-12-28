@@ -3,10 +3,11 @@ class Contact extends HTMLElement {
     super();
   }
   connectedCallback() {
+    console.log('holi contact');
     this.innerHTML = `
       <div class="container-fluid">
       <div class="row contact-container">
-        <div class="col-sm-12 col-md-6 col-lg-6 contact-text-container border-test px-5">
+        <div class="col-sm-12 col-md-6 col-lg-6 contact-text-container border-test">
           <h1 class="contact-header">
             Se interessou e quer conversar com alguém especializado?
             </h1>
@@ -14,17 +15,17 @@ class Contact extends HTMLElement {
             Deixe o seu contato ao lado, que o nosso time de consultores, irá entrar em contato com você para você ter a melhor solução possível.
             </p>
         </div>
-        <div class="col-sm-12 col-md-6 col-lg-6 contact-form-container border-test px-5">
+        <div class="col-sm-12 col-md-6 col-lg-6 contact-form-container border-test">
           <form>
-            <div class="label-text pt-5 pb-2">
+            <div class="label-text label-name">
               <label for="formControlNome" class="form-label" >Nome</label>
               <input readonly type="nome" class="form-control" id="formControlNome" />
             </div>
-            <div class="label-text pt-4 pb-2">
+            <div class="label-text">
               <label for="formControlEmail" class="form-label" >E-mail</label>
               <input readonly type="email" class="form-control" id="formControlEmail" />
             </div>
-            <div class="label-text pt-4 pb-2">
+            <div class="label-text">
               <label for="formControlTelefone" class="form-label" >Telefone</label>
               <input readonly type="telefone" class="form-control" id="formControlTelefone" />
             </div>
@@ -49,7 +50,7 @@ class Contact extends HTMLElement {
                 </label>
               </div>
             </div>
-            <button class="submit-button mt-4 mb-5">Enviar</button>
+            <button class="submit-button">Enviar</button>
           </form>
         </div>
       </div>

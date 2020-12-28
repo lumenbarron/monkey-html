@@ -6,14 +6,14 @@ class Supplier extends HTMLElement {
     this.innerHTML = `
         <div class="container-fluid">
           <div class="row">
-            <div class="col-sm-12 col-md-6 col-lg-6 border-test p-0">
+            <div class="col-sm-12 col-md-6 col-lg-6 order-two border-test flex-general p-0">
               <img
               src='./images/supplier-banner.png'
               class="supplier-banner"
               alt="supplier-banner"
             />
             </div>
-            <div class="col-sm-12 col-md-6 col-lg-6 border-test supplier-container">
+            <div class="col-sm-12 col-md-6 col-lg-6 order-one border-test supplier-container">
               <h2 class="title-h2">
                 Notas Fiscais para receber só daqui 120 dias? Antecipe agora mesmo.
               </h2>
@@ -28,33 +28,39 @@ class Supplier extends HTMLElement {
             </div>
           </div>
           <div class="row icons-container border-test">
-            <div class="col">
+            <div class="col text-icons">
               <img src='./images/calendar.svg' class="pb-3" alt="calendar-icon" />
-              <h5 class="">
+              <div>
+              <h5 class="title-icons">
               Juros Competitivos
               </h5>
               <p class="supplier-text-icons pb-1">
               Nossos juros é 70% menor que o mercado cobra.
               </p>
+              </div>
             </div>
-            <div class="col">
+            <div class="col text-icons">
               <img src='./images/chart.svg' class="pb-3" alt="chart.png-icon" />
-              <h5 class="">
+              <div>
+              <h5 class="title-icons">
               Antecipe Notas Fiscais
               </h5>
               <p class="supplier-text-icons pb-1">
               A solução para a sua Nota Fiscal com um prazo longo.
               </p>
+              </div>
             </div>
-            <div class="col">
+            <div class="col text-icons">
               <img src='./images/wallet.svg' class="pb-3" alt="wallet.svg-icon" />
-              <h5 class="">
+              <div>
+              <h5 class="title-icons">
               Dinheiro no Mesmo Dia
               </h5>
               <p class="supplier-text-icons pb-1">
               Nossos investidores depositam o dinheiro no mesmo dia.
               </p>
-            </div>
+              </div>
+              </div>
           </div>
         </div>
         `;

@@ -2,9 +2,7 @@ class MainBanner extends HTMLElement {
   constructor() {
     super();
   }
-
   connectedCallback() {
-    console.log("holi");
     this.innerHTML = `
         <div class="container-fluid">
           <div class="row">
@@ -19,7 +17,7 @@ class MainBanner extends HTMLElement {
               </p>
               <button class="btn-border-header">Saiba Mais</button>
             </div>
-            <div class="col-sm-12 col-md-6 col-lg-6 px-0 border-test">
+            <div class="col-sm-12 col-md-6 col-lg-6 px-0 flex-general border-test">
               <img src='./images/main-banner.png' class="monkey-banner" alt="monkey-banner" />
             </div>
           </div>

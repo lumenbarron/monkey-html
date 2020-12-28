@@ -22,22 +22,28 @@ class Company extends HTMLElement {
             Entenda as vantagens de ter um programa.
           </a>
           <div class="row icons-container-left m-0">
-            <div class="col">
+            <div class="col text-icons">
               <img src="./images/chart.svg" class="pb-3" alt="chart-icon" />
-              <h5 class="">Fluxo de Caixa</h5>
+              <div>
+              <h5 class="title-icons">Fluxo de Caixa</h5>
               <p class="supplier-text-icons pr-4">
                 Com o nosso sistema, você poderá aumentar seu prazo de
                 pagamento.
               </p>
+              </div>
             </div>
-            <div class="col">
+
+            <div class="col text-icons">
               <img src="./images/work.svg" class="pb-3" alt="work-icon" />
-              <h5 class="">Flexibilidade no Pagamento</h5>
+              <div>
+              <h5 class="title-icons">Flexibilidade no Pagamento</h5>
               <p class="supplier-text-icons">
                 Novas opções para solucionar o seu pagamento e controle dos
                 fornecedores.
               </p>
+              </div>
             </div>
+            
           </div>
         </div>
       <div class="col-sm-12 col-md-6 col-lg-6 border-test p-0">
@@ -61,8 +67,10 @@ class Company extends HTMLElement {
           <div class="col-lg-3 product-card-container pr-0 border-test">
             <div class="border-test product-card">
               <div class="product-text">
+              <div class="product-card-title">
                 <img src='./images/icon-heart.svg' class="pb-3" alt="icon-heart" />
                 <h5>Fomente seus fornecedores.</h5>
+              </div>
                 <p class="supplier-text-icons m-0">
                   Crie um impacto na sua cadeia, do menor até o maior
                   fornecedor.
@@ -73,8 +81,10 @@ class Company extends HTMLElement {
           <div class="col-lg-3 product-card-container pr-0 border-test">
             <div class="border-test product-card">
               <div class="product-text">
+              <div class="product-card-title">
                 <img src='./images/icon-star.svg' class="pb-3" alt="icon-star" />
                 <h5>Prazo de pagamento.</h5>
+                </div>
                 <p class="supplier-text-icons m-0">
                   Tenha mais fluxo, e aumente o prazo médio de pagamento.
                 </p>
@@ -84,8 +94,10 @@ class Company extends HTMLElement {
           <div class="col-lg-3 product-card-container pr-0 border-test">
             <div class="border-test product-card">
               <div class="product-text">
+              <div class="product-card-title">
                 <img src='./images/icon-work.svg' class="pb-3" alt="icon-work" />
                 <h5>Otimização do Fluxo.</h5>
+                </div>
                 <p class="supplier-text-icons m-0">
                   Otimize e tenha um melhor controle do fluxo de caixa da sua empresa.
                 </p>
@@ -95,8 +107,10 @@ class Company extends HTMLElement {
           <div class="col-lg-3 product-card-container pr-0 border-test">
             <div class="border-test product-card">
               <div class="product-text">
+              <div class="product-card-title">
                 <img src='./images/icon-graph.svg' class="pb-3" alt="icon-graph" />
                 <h5>Acesso a linhas de créditos.</h5>
+                </div>
                 <p class="supplier-text-icons m-0">
                   A sua empresa terá acesso a mais de 22 investidores para as linhas de créditos.
                 </p>
@@ -106,7 +120,6 @@ class Company extends HTMLElement {
         </div>
       </div>
     </div>
-    
     </div>
           `;
     }

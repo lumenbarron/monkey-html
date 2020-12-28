@@ -19,8 +19,8 @@ class BrandingInvestors extends HTMLElement {
       <div class="row container-logo-three">
         <img src='./images/daycoval.svg' class="brand-size" alt="daycoval-company" />
         <img src='./images/btg.svg' class="brand-size" alt="btg-svmpany" />
-        <img src='./images/itau.svg' style="height:56px" class="brand-size" alt="itau-company" />
-        <img src='./images/safra.svg' class="brand-size" alt="safra-company" />
+        <img src='./images/itau.svg' id='itau' class="brand-size" alt="itau-company" />
+        <img src='./images/safra.svg' id='safra' class="brand-size" alt="safra-company" />
       </div>
     </div>
             `;
