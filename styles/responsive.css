@@ -31,7 +31,7 @@ code {
 }
 
 .border-test {
-  border: 1px solid black !important;
+  border: 1px solid transparent !important;
 }
 
 .title-h2 {
