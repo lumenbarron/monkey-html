@@ -42,7 +42,6 @@ code {
 }
 
 .main-nav {
-  height: 7rem;
   border-bottom: 0.5px solid #d6d6d6;
 }
 
@@ -91,6 +90,10 @@ code {
   font-weight: 650;
 }
 
+.main-nav .btn-border-nav a {
+  text-decoration: none;
+}
+
 .text-container {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -130,8 +133,16 @@ code {
   font-weight: 650;
 }
 
+.btn-border-header a {
+  text-decoration: none;
+}
+
 .monkey-banner {
   padding-bottom: 2.9rem;
+  width: auto;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
 }
 
 .supplier-container {
@@ -583,6 +594,12 @@ code {
   border: 1px solid #d6d6d6;
 }
 
+.label-text p {
+  font-size: 14px;
+  color: red;
+  margin: 0;
+}
+
 .label-name {
   padding-top: 3rem;
 }
@@ -651,6 +668,10 @@ code {
   padding-bottom: 1.5rem;
 }
 
+.titles-footer .text-footer {
+  text-decoration: none;
+}
+
 .titles-footer p {
   color: #747880;
 }
@@ -671,7 +692,12 @@ code {
 
 .radio-input {
   color: #ffffff;
-  margin-right: 2.5rem;
+  margin-right: 1rem;
+}
+
+.radio-input a {
+  text-decoration: none;
+  color: #ffffff;
 }
 
 .lenguage-row {
@@ -689,6 +715,86 @@ code {
           flex-direction: row;
   background: #1e232c;
   padding: 1.5rem 3.5rem;
+}
+
+@media only screen and (max-width: 769px) {
+  .order-one {
+    -webkit-box-ordinal-group: 2;
+        -ms-flex-order: 1;
+            order: 1;
+  }
+  .order-two {
+    -webkit-box-ordinal-group: 3;
+        -ms-flex-order: 2;
+            order: 2;
+  }
+  .supplier-banner {
+    height: 600px;
+    margin-top: 2rem;
+  }
+  .icons-container {
+    width: 112%;
+    position: relative;
+    right: 0;
+    margin-top: 2rem !important;
+  }
+  .container-brand {
+    padding-top: 2rem;
+  }
+  .container-text {
+    padding-bottom: 2rem;
+  }
+  .brand-text {
+    font-size: 1.5rem;
+  }
+  .brand-size {
+    margin-bottom: 1.5rem;
+    padding: 0 !important;
+  }
+  .container-logo-one {
+    padding-bottom: .5rem;
+  }
+  .container-logo-two {
+    padding-bottom: 0;
+  }
+  .container-logo-three {
+    padding-bottom: 0;
+  }
+  #ifood {
+    display: none;
+  }
+  #philco {
+    display: none;
+  }
+  #kws {
+    display: none;
+  }
+  #itau {
+    display: none;
+  }
+  #safra {
+    display: none;
+  }
+  #bnp {
+    display: none;
+  }
+  .company-banner {
+    height: 600px;
+  }
+  .investor-banner {
+    height: 650px;
+  }
+  .contact-header {
+    color: #4b4a53;
+    font-size: 2.5rem;
+  }
+  .container-titles {
+    padding: 0 1.5rem;
+  }
+  .container-icons {
+    padding-right: 0;
+    margin-bottom: 1rem;
+  }
 }
 
 @media only screen and (max-width: 426px) {
@@ -750,17 +856,7 @@ code {
     margin-top: 2rem;
   }
   .investor-banner {
-    width: 300px;
-  }
-  .order-one {
-    -webkit-box-ordinal-group: 2;
-        -ms-flex-order: 1;
-            order: 1;
-  }
-  .order-two {
-    -webkit-box-ordinal-group: 3;
-        -ms-flex-order: 2;
-            order: 2;
+    height: 300px;
   }
   .supplier-container {
     padding-left: 0 !important;
@@ -768,12 +864,6 @@ code {
   .supplier-container h2 {
     font-size: 1.5rem;
     margin-top: 2rem;
-  }
-  .icons-container {
-    width: 112%;
-    position: relative;
-    right: 0;
-    margin-top: 2rem !important;
   }
   .text-icons {
     display: -webkit-box;
@@ -794,23 +884,11 @@ code {
     font-size: 14px;
     padding-left: 1rem;
   }
-  .container-brand {
-    padding-top: 2rem;
-  }
-  .container-text {
-    padding-bottom: 2rem;
-  }
-  .brand-text {
-    font-size: 1.5rem;
-  }
   .brand-size {
-    margin-bottom: 1.5rem;
-    padding: 0 !important;
     width: 150px !important;
     height: auto !important;
   }
   .container-logo-one {
-    padding-bottom: 0;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -823,9 +901,6 @@ code {
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
-  }
-  .container-logo-two {
-    padding-bottom: 0;
   }
   .container-logo-three {
     display: -webkit-box;
@@ -840,25 +915,9 @@ code {
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
-    padding-bottom: 0;
-  }
-  #ifood {
-    display: none;
-  }
-  #philco {
-    display: none;
-  }
-  #kws {
-    display: none;
-  }
-  #itau {
-    display: none;
-  }
-  #safra {
-    display: none;
   }
   .company-banner {
-    width: 300px;
+    height: 300px;
   }
   .main-company h2 {
     font-size: 1.5rem;
@@ -1133,15 +1192,8 @@ code {
         align-content: center;
     padding: 3rem 0 2rem 0;
   }
-  .container-titles {
-    padding: 0 1.5rem;
-  }
   .titles-footer h6 {
     padding-bottom: 0.5rem;
-  }
-  .container-icons {
-    padding-right: 0;
-    margin-bottom: 1rem;
   }
   .row-copyright {
     padding: 1.5rem 0;

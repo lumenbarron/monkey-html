@@ -4,16 +4,16 @@ class Supplier extends HTMLElement {
   }
   connectedCallback() {
     this.innerHTML = `
-        <div class="container-fluid">
+        <div class="container-fluid" id="supplier">
           <div class="row">
-            <div class="col-sm-12 col-md-6 col-lg-6 order-two border-test flex-general p-0">
+            <div class="col-sm-12 col-md-12 col-lg-6 order-two border-test flex-general p-0">
               <img
               src='./images/supplier-banner.png'
               class="supplier-banner"
               alt="supplier-banner"
             />
             </div>
-            <div class="col-sm-12 col-md-6 col-lg-6 order-one border-test supplier-container">
+            <div class="col-sm-12 col-md-12 col-lg-6 order-one border-test supplier-container">
               <h2 class="title-h2">
                 Notas Fiscais para receber só daqui 120 dias? Antecipe agora mesmo.
               </h2>
@@ -22,7 +22,7 @@ class Supplier extends HTMLElement {
                 possível. Acreditamos na sustentabilidade em uma cadeia de
                 Fornecedores.
               </p>
-              <a class="link-style">
+              <a class="link-style" href="#contact">
                 Saiba mais sobre as vantagens.
               </a>
             </div>

@@ -12,7 +12,7 @@ class BrandingInvestors extends HTMLElement {
       </div>
       <div class="row container-logo-one">
         <img src='./images/bib.png' class="brand-size" alt="bib-company" />
-        <img src='./images/bnp.svg' class="brand-size" alt="bnp-company" />
+        <img src='./images/bnp.svg' id="bnp" class="brand-size" alt="bnp-company" />
         <img src='./images/bbm.svg' class="brand-size" alt="bbm-company" />
         <img src='./images/bradesco.svg' class="brand-size" alt="bradesco-company" />
       </div>

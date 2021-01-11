@@ -4,9 +4,9 @@ class Investor extends HTMLElement {
     }
     connectedCallback() {
       this.innerHTML = `
-      <div class="container-fluid investor-company p-0">
+      <div class="container-fluid investor-company p-0" id="investidor">
       <div class="row row-company m-0">
-        <div class="col-sm-12 col-md-6 col-lg-6 text-container border-test p-0">
+        <div class="col-sm-12 col-md-12 col-lg-6 text-container border-test p-0">
           <button class="btn-investor mb-3">Investidor</button>
           <h2 class="title-h2">
           Aqui na Monkey você investidor tem mais acesso a grandes empresas.
@@ -15,7 +15,7 @@ class Investor extends HTMLElement {
           Tenha oportunidades de operar em grandes empresas, com uma plataforma ágil, facil e eficaz. Com um onboarding totalmente digital e com controle de cada cadastro.          Aumente o seu prazo de pagamento, e ajude os seus fornecedores a
             terem uma vida financeira mais saúdavel.
           </p>
-          <a class="link-style" >
+          <a class="link-style" href="#contact">
             Entenda as vantagens de ter um programa.
         </a>
         <div class="row icons-container-left m-0">
@@ -41,7 +41,7 @@ class Investor extends HTMLElement {
           
         </div>
         </div>
-        <div class="col-sm-12 col-md-6 col-lg-6 border-test p-0">
+        <div class="col-sm-12 col-md-12 col-lg-6 border-test p-0">
           <img
           src='./images/investor-banner.png'
           class="investor-banner"

@@ -117,7 +117,7 @@ $gray-100: #f5f5f5;
 
 // Nav Bar Styles
 .main-nav {
-  height: 7rem;
+  // height: 7rem;
   border-bottom: 0.5px solid $gray-300;
 
   .monkey-logo {
@@ -138,6 +138,9 @@ $gray-100: #f5f5f5;
   }
   .btn-border-nav {
     @include btn-medium-border(40px);
+    a{
+      text-decoration: none;
+    }
   }
 }
 
@@ -156,9 +159,14 @@ $gray-100: #f5f5f5;
 }
 .btn-border-header {
   @include btn-medium-border(48px);
+  a{
+    text-decoration: none;
+  }
 }
 .monkey-banner {
   padding-bottom: 2.9rem;
+  width: auto;
+  height: fit-content;
 }
 
 //Supplier styles
@@ -421,6 +429,11 @@ $gray-100: #f5f5f5;
     background: $gray-100 !important;
     border: 1px solid $gray-300;
   }
+  p{
+    font-size: 14px;
+    color: red;
+    margin: 0;
+  }
 }
 .label-name{
   padding-top: 3rem;
@@ -460,9 +473,13 @@ $gray-100: #f5f5f5;
     font-weight: 400;
     padding-bottom: 1.5rem;
   }
-  p {
-    color: $color-neutral-dark;
+  .text-footer{
+    text-decoration: none;
   }
+    p {
+      color: $color-neutral-dark;
+    }
+  
 }
 .container-icons {
   padding-right: 5rem;
@@ -476,7 +493,12 @@ $gray-100: #f5f5f5;
 }
 .radio-input {
   color: $branco-uacari;
-  margin-right: 2.5rem;
+  margin-right: 1rem;
+  a{
+    text-decoration: none;
+    color: $branco-uacari;
+  }
+  
 }
 .lenguage-row {
   @include flexSpace(flex-end);

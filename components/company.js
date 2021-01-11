@@ -4,10 +4,10 @@ class Company extends HTMLElement {
     }
     connectedCallback() {
       this.innerHTML = `
-      <div class="container-fluid main-company p-0">
+      <div class="container-fluid main-company p-0" id="company">
       <div class="row row-company m-0">
         <div
-          class="col-sm-12 col-md-6 col-lg-6 text-container border-test p-0"
+          class="col-sm-12 col-md-12 col-lg-6 text-container border-test p-0"
         >
           <button class="btn-company mb-3">Âncora</button>
           <h2 class="title-h2">
@@ -18,7 +18,7 @@ class Company extends HTMLElement {
             Aumente o seu prazo de pagamento, e ajude os seus fornecedores a
             terem uma vida financeira mais saúdavel.
           </p>
-          <a class="link-style">
+          <a class="link-style" href="#contact">
             Entenda as vantagens de ter um programa.
           </a>
           <div class="row icons-container-left m-0">
@@ -46,7 +46,7 @@ class Company extends HTMLElement {
             
           </div>
         </div>
-      <div class="col-sm-12 col-md-6 col-lg-6 border-test p-0">
+      <div class="col-sm-12 col-md-12 col-lg-6 border-test p-0">
         <img
           src="./images/company-banner.png"
           class="company-banner"
@@ -64,7 +64,7 @@ class Company extends HTMLElement {
           <h4>Algumas das nossas soluções</h4>
         </div>
         <div class="row m-0">
-          <div class="col-lg-3 product-card-container pr-0 border-test">
+          <div class="col-lg-3 col-md-6 product-card-container pr-0 border-test">
             <div class="border-test product-card">
               <div class="product-text">
               <div class="product-card-title">
@@ -78,7 +78,7 @@ class Company extends HTMLElement {
               </div>
             </div>
           </div>
-          <div class="col-lg-3 product-card-container pr-0 border-test">
+          <div class="col-lg-3 col-md-6 product-card-container pr-0 border-test">
             <div class="border-test product-card">
               <div class="product-text">
               <div class="product-card-title">
@@ -91,7 +91,7 @@ class Company extends HTMLElement {
               </div>
             </div>
           </div>
-          <div class="col-lg-3 product-card-container pr-0 border-test">
+          <div class="col-lg-3 col-md-6 product-card-container pr-0 border-test">
             <div class="border-test product-card">
               <div class="product-text">
               <div class="product-card-title">
@@ -104,7 +104,7 @@ class Company extends HTMLElement {
               </div>
             </div>
           </div>
-          <div class="col-lg-3 product-card-container pr-0 border-test">
+          <div class="col-lg-3 col-md-6 product-card-container pr-0 border-test">
             <div class="border-test product-card">
               <div class="product-text">
               <div class="product-card-title">

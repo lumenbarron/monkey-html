@@ -1,5 +1,87 @@
 @import "./global-style.scss";
 
+@media only screen and (max-width: 769px){
+
+  //Supplier
+  .order-one {
+    order: 1;
+  }
+  .order-two {
+    order: 2;
+  }
+    .supplier-banner {
+      height: 600px;
+      // margin-left: -2rem;
+      margin-top: 2rem;
+    }
+    .icons-container {
+      width: 112%;
+      position: relative;
+      right: 0;
+      margin-top: 2rem !important;
+    }
+
+      //Branding blocks
+  .container-brand {
+    padding-top: 2rem;
+  }
+  .container-text {
+    padding-bottom: 2rem;
+  }
+  .brand-text {
+    font-size: 1.5rem;
+  }
+  .brand-size {
+    margin-bottom: 1.5rem;
+    padding: 0 !important;
+  }
+  .container-logo-one {
+    padding-bottom: .5rem;
+  }
+
+  .container-logo-two {
+    padding-bottom: 0;
+  }
+  .container-logo-three {
+    padding-bottom: 0;
+  }
+
+  #ifood {
+    display: none;
+  }
+  #philco {
+    display: none;
+  }
+  #kws {
+    display: none;
+  }
+  #itau {
+    display: none;
+  }
+  #safra {
+    display: none;
+  }
+  #bnp{
+    display: none;
+  }
+  .company-banner{
+    height: 600px;
+  }
+  .investor-banner {
+    height: 650px;
+  }
+  .contact-header {
+    @include main-text($gray-600, 2.5rem);
+  }
+  .container-titles {
+    padding: 0 1.5rem;
+  }
+  .container-icons {
+    padding-right: 0;
+    margin-bottom: 1rem;
+  }
+}
+
 @media only screen and (max-width: 426px) {
   .canva-geral {
     padding: 1.5rem 1.5rem 0px;
@@ -47,14 +129,14 @@
     margin-top: 2rem;
   }
   .investor-banner {
-    width: 300px;
+    height: 300px;
   }
-  .order-one {
-    order: 1;
-  }
-  .order-two {
-    order: 2;
-  }
+  // .order-one {
+  //   order: 1;
+  // }
+  // .order-two {
+  //   order: 2;
+  // }
   .supplier-container {
     padding-left: 0 !important;
     h2 {
@@ -62,12 +144,12 @@
       margin-top: 2rem;
     }
   }
-  .icons-container {
-    width: 112%;
-    position: relative;
-    right: 0;
-    margin-top: 2rem !important;
-  }
+  // .icons-container {
+  //   width: 112%;
+  //   position: relative;
+  //   right: 0;
+  //   margin-top: 2rem !important;
+  // }
   .text-icons {
     display: flex;
     margin: 0;
@@ -84,54 +166,52 @@
     padding-left: 1rem;
   }
 
-  //Branding blocks
-  .container-brand {
-    padding-top: 2rem;
-  }
-  .container-text {
-    padding-bottom: 2rem;
-  }
-  .brand-text {
-    font-size: 1.5rem;
-  }
+  // //Branding blocks
+  // .container-brand {
+  //   padding-top: 2rem;
+  // }
+  // .container-text {
+  //   padding-bottom: 2rem;
+  // }
+  // .brand-text {
+  //   font-size: 1.5rem;
+  // }
   .brand-size {
-    margin-bottom: 1.5rem;
-    padding: 0 !important;
+    // margin-bottom: 1.5rem;
+    // padding: 0 !important;
     width: 150px !important;
     height: auto !important;
   }
   .container-logo-one {
-    padding-bottom: 0;
     @include flexDirection(column);
   }
 
-  .container-logo-two {
-    padding-bottom: 0;
-  }
+  // .container-logo-two {
+  //   padding-bottom: 0;
+  // }
   .container-logo-three {
     @include flexDirection(column);
-    padding-bottom: 0;
   }
 
-  #ifood {
-    display: none;
-  }
-  #philco {
-    display: none;
-  }
-  #kws {
-    display: none;
-  }
-  #itau {
-    display: none;
-  }
-  #safra {
-    display: none;
-  }
+  // #ifood {
+  //   display: none;
+  // }
+  // #philco {
+  //   display: none;
+  // }
+  // #kws {
+  //   display: none;
+  // }
+  // #itau {
+  //   display: none;
+  // }
+  // #safra {
+  //   display: none;
+  // }
 
   //Company
   .company-banner {
-    width: 300px;
+    height: 300px;
   }
   .main-company {
     h2 {
@@ -300,18 +380,18 @@
     @include flexCenter();
     padding: 3rem 0 2rem 0;
   }
-  .container-titles {
-    padding: 0 1.5rem;
-  }
+  // .container-titles {
+  //   padding: 0 1.5rem;
+  // }
   .titles-footer {
     h6 {
       padding-bottom: 0.5rem;
     }
   }
-  .container-icons {
-    padding-right: 0;
-    margin-bottom: 1rem;
-  }
+  // .container-icons {
+  //   padding-right: 0;
+  //   margin-bottom: 1rem;
+  // }
   .row-copyright {
     // @include flexCenter();
     padding: 1.5rem 0;
