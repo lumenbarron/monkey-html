@@ -14,6 +14,25 @@ class NavBar extends HTMLElement {
           </button>
           <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
             <ul class="navbar-nav me-auto mb-2 mb-lg-0 container-nav m-0">
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Soluções
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                  <a class="dropdown-item nav-link" href="#supplier">Fornecedores</a>
+                  <a class="dropdown-item nav-link" href="#investidor">Investidor</a>
+                  <a class="dropdown-item nav-link" href="#company">Empresas</a>
+                </div>
+              </li>
+              <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Produtos
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                <a class="dropdown-item nav-link" href="#">Supply Chain Finance</a>
+                <a class="dropdown-item nav-link" href="#">Spike</a>
+              </div>
+            </li>
               <li class="">
                 <a class="nav-link " href="#supplier">Fornecedores</a>
               </li>
