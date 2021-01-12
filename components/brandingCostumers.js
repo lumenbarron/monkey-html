@@ -6,9 +6,9 @@ class BrandingCostumer extends HTMLElement {
     this.innerHTML = `
       <div class="container-fluid container-brand border-test">
       <div class="row container-text">
-        <h4 class="brand-text">
-          Os melhores acreditam em nossas soluções
-    </h4>
+      <p class="supplier-text-icons pb-1">
+      Atendemos as maiores empresas, se você fornece para algumas delas, você pode antecipar em nosso programa.
+      </p>
       </div>
       <div class="row container-logo-one">
         <img src='./images/natura.png' class="brand-size" alt="natura-company" />
@@ -22,6 +22,15 @@ class BrandingCostumer extends HTMLElement {
         <img src='./images/mdias.png' id="mdias" class="brand-size" alt="mdias-company" />
         <img src='./images/kws.png' id="kws" class="brand-size" alt="kws-company" />
         <img src='./images/gerdau.png' id="gerdau" class="brand-size" alt="gerdau-company" />
+      </div>
+      <div class="row container-text">
+      <p class="supplier-text-icons pb-1">
+      Não encontrou a empresa que você fornece ? Entre em contato com a gente e iremos
+      responder se a empresa possui a nossa solução.
+      </p>
+      </div>
+      <div class="row container-text">
+      <button class="btn-company mb-3"><a href="#contact"> Entrar em contato </a></button>
       </div>
     </div>
           `;

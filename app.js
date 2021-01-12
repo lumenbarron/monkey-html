@@ -61,6 +61,7 @@ const sendContact = (event) => {
   let name = document.getElementById("nome").value;
   let email = document.getElementById("email").value.toLowerCase();
   let phone = document.getElementById("telefone").value;
+  let message = document.getElementById("message").value;
 
   const rbs = document.querySelectorAll('input[name="choice"]');
   let selectCompany;
@@ -79,6 +80,15 @@ const sendContact = (event) => {
       icon: 'error',
       title: 'Oops...',
       text: 'É preciso colocar um nome',
+    })
+    return false;
+  }
+  if (message === '' || message === null) {
+    //errorName.innerHTML = "É preciso colocar um nome";
+    Swal.fire({
+      icon: 'error',
+      title: 'Oops...',
+      text: 'É preciso colocar uma message',
     })
     return false;
   } 
@@ -102,7 +112,7 @@ const sendContact = (event) => {
   } 
   //else {
 
-    console.log(name, email, phone, selectCompany)
+    console.log(name, email, phone, message, selectCompany)
 
     let headers = new Headers();
   
@@ -118,7 +128,7 @@ const sendContact = (event) => {
         telefone: phone,
         email : email,
         perfil : selectCompany,
-        comentarios: 'sc',
+        comentarios: message,
         clientes: 'sc'
       }),
       headers: headers,

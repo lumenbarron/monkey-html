@@ -15,7 +15,7 @@ class Company extends HTMLElement {
             programas como âncora.
           </h2>
           <p class="main-text">
-            Aumente o seu prazo de pagamento, e ajude os seus fornecedores a
+            Aumente seu prazo de pagamento e ajude seus fornecedores a
             terem uma vida financeira mais saúdavel.
           </p>
           <a class="link-style" href="#contact">
@@ -32,14 +32,12 @@ class Company extends HTMLElement {
               </p>
               </div>
             </div>
-
             <div class="col text-icons">
               <img src="./images/work.svg" class="pb-3" alt="work-icon" />
               <div>
               <h5 class="title-icons">Flexibilidade no Pagamento</h5>
               <p class="supplier-text-icons">
-                Novas opções para solucionar o seu pagamento e controle dos
-                fornecedores.
+                Com a nossa solução tehna mas flexibilidade para pagar os seus fornecedores.
               </p>
               </div>
             </div>
@@ -48,7 +46,7 @@ class Company extends HTMLElement {
         </div>
       <div class="col-sm-12 col-md-12 col-lg-6 border-test p-0">
         <img
-          src="./images/company-banner.png"
+          src="./images/company-banner-2.png"
           class="company-banner"
           alt="company-banner"
         />
@@ -72,8 +70,7 @@ class Company extends HTMLElement {
                 <h5>Fomente seus fornecedores.</h5>
               </div>
                 <p class="supplier-text-icons m-0">
-                  Crie um impacto na sua cadeia, do menor até o maior
-                  fornecedor.
+                  Impacte positivamente sua cadeia, do menor ao maior fornecedor.
                 </p>
               </div>
             </div>
@@ -86,7 +83,8 @@ class Company extends HTMLElement {
                 <h5>Prazo de pagamento.</h5>
                 </div>
                 <p class="supplier-text-icons m-0">
-                  Tenha mais fluxo, e aumente o prazo médio de pagamento.
+                Melhore seu fluxo de caixa ou Ganhe folego aumentando seu
+                prazo de pagamento.
                 </p>
               </div>
             </div>
@@ -99,7 +97,7 @@ class Company extends HTMLElement {
                 <h5>Otimização do Fluxo.</h5>
                 </div>
                 <p class="supplier-text-icons m-0">
-                  Otimize e tenha um melhor controle do fluxo de caixa da sua empresa.
+                  Controle do seu pagamento, com visibilidade total de gestão financeira da sua cadeia.
                 </p>
               </div>
             </div>
@@ -112,7 +110,7 @@ class Company extends HTMLElement {
                 <h5>Acesso a linhas de créditos.</h5>
                 </div>
                 <p class="supplier-text-icons m-0">
-                  A sua empresa terá acesso a mais de 22 investidores para as linhas de créditos.
+                  A sua empresa terá acesso a mais de 25 investidores para as linhas de créditos.
                 </p>
               </div>
             </div>
