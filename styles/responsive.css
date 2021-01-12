@@ -152,10 +152,10 @@ code {
   border-radius: 8px;
   border: none;
   color: #ffffff;
-  width: 151px;
+  width: 181px;
   -webkit-box-shadow: -8px 12px 11px rgba(2, 115, 232, 0.1);
           box-shadow: -8px 12px 11px rgba(2, 115, 232, 0.1);
-  background: #009966;
+  background: #e3b839;
 }
 
 .supplier-container {
@@ -377,10 +377,10 @@ code {
   border-radius: 8px;
   border: none;
   color: #ffffff;
-  width: 185px;
+  width: 151px;
   -webkit-box-shadow: -8px 12px 11px rgba(2, 115, 232, 0.1);
           box-shadow: -8px 12px 11px rgba(2, 115, 232, 0.1);
-  background: #e3b839;
+  background: #009966;
 }
 
 .container-title {
