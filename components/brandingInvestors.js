@@ -6,7 +6,7 @@ class BrandingInvestors extends HTMLElement {
     this.innerHTML = `
       <div class="container-fluid container-brand border-test">
       <div class="row container-text">
-        <h3 class="brand-text">
+        <h4 class="brand-text">
           Mais de 25 Investidores nacionais e internacionais prontos para conectar em seu programa e financiar sua cadeia.
     </h4>
       </div>

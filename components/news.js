@@ -6,7 +6,7 @@ class News extends HTMLElement {
     this.innerHTML = `
       <div class="container-fluid px-0 border-test">
       <div class="row container-title m-0">
-        <h4 class="brand-text">Os melhores acreditam em nossas soluções</h4>
+        <h4 class="brand-text">Estamos em todos os cantos</h4>
       </div>
       <div class="row m-0 carousel-container border-test">
         <button aria-label="before" class="carousel-prev button-icons px-0">

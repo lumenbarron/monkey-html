@@ -34,15 +34,6 @@ class NavBar extends HTMLElement {
               </div>
             </li>
               <li class="">
-                <a class="nav-link " href="#supplier">Fornecedores</a>
-              </li>
-              <li class="">
-                <a class="nav-link" href="#investidor">Instituições Financeiras</a>
-              </li>
-              <li class="">
-                <a class="nav-link" href="#company">Empresas</a>
-              </li>
-              <li class="">
                 <a class="nav-link" href="#">Quem Somos</a>
               </li>
               <li class="">

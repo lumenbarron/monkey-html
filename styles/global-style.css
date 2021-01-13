@@ -43,6 +43,7 @@ code {
 
 .main-nav {
   border-bottom: 0.5px solid #d6d6d6;
+  width: 100%;
 }
 
 .main-nav .monkey-logo {
@@ -53,9 +54,9 @@ code {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -webkit-box-pack: end !important;
+      -ms-flex-pack: end !important;
+          justify-content: flex-end !important;
   -ms-flex-line-pack: center;
       align-content: center;
   width: 100%;
@@ -63,6 +64,7 @@ code {
 
 .main-nav .container-nav li {
   list-style-type: none;
+  width: 130px;
 }
 
 .main-nav .container-nav li a {
@@ -153,9 +155,10 @@ code {
   border: none;
   color: #ffffff;
   width: 181px;
-  -webkit-box-shadow: -8px 12px 11px rgba(2, 115, 232, 0.1);
-          box-shadow: -8px 12px 11px rgba(2, 115, 232, 0.1);
+  -webkit-box-shadow: -8px 12px 11px rgba(227, 184, 57, 0.15);
+          box-shadow: -8px 12px 11px rgba(227, 184, 57, 0.15);
   background: #e3b839;
+  color: #1e232c !important;
 }
 
 .supplier-container {
@@ -182,7 +185,7 @@ code {
   width: 52%;
   position: absolute;
   right: 6rem;
-  margin-top: -9% !important;
+  margin-top: -5% !important;
 }
 
 .supplier-text-icons {
@@ -206,11 +209,18 @@ code {
   padding-bottom: 4rem;
 }
 
+.container-text-info {
+  padding: 0px 19rem;
+  text-align: center;
+  padding-bottom: 1rem;
+}
+
 .brand-text {
   color: #364254;
   font-size: 2rem;
-  font-weight: 300;
+  font-weight: 400;
   text-align: center;
+  padding: 0 20rem 3rem 20rem;
 }
 
 .container-logo-one {
@@ -232,7 +242,7 @@ code {
       justify-content: space-around;
   -ms-flex-line-pack: center;
       align-content: center;
-  padding-bottom: 7.5rem;
+  padding-bottom: 3rem;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
@@ -253,6 +263,22 @@ code {
 .brand-size {
   width: auto !important;
   height: 2.5rem;
+}
+
+.btn-branding {
+  width: 40px;
+  height: 48px;
+  background: #0273e8;
+  border-radius: 8px;
+  border: none;
+  color: #ffffff;
+  width: 248px;
+}
+
+.btn-branding a {
+  color: #ffffff !important;
+  text-decoration: none;
+  font-size: 14px;
 }
 
 #mdias {
@@ -392,13 +418,12 @@ code {
           justify-content: center;
   -ms-flex-line-pack: center;
       align-content: center;
-  padding-top: 8rem;
+  padding-top: 6rem;
 }
 
 .carousel-container {
   position: relative;
-  padding: 3.5rem;
-  padding-bottom: 3rem;
+  padding: .5rem 3.5rem 3rem 3.5rem;
 }
 
 .carousel-container .carousel-list {
@@ -532,7 +557,7 @@ code {
           justify-content: center;
   -ms-flex-line-pack: center;
       align-content: center;
-  padding-bottom: 8.5rem;
+  padding-bottom: 3rem;
 }
 
 .button-news {
@@ -607,6 +632,11 @@ code {
   border: 1px solid #d6d6d6;
 }
 
+.label-text textarea {
+  background: #f5f5f5 !important;
+  border: 1px solid #d6d6d6;
+}
+
 .label-text p {
   font-size: 14px;
   color: red;
@@ -615,6 +645,9 @@ code {
 
 .label-name {
   padding-top: 3rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
 }
 
 .radio-text {

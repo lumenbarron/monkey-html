@@ -33,27 +33,17 @@ class NavBar extends HTMLElement {
               <a class="dropdown-item nav-link" href="#">Spike</a>
             </div>
           </li>
-            <li class="">
-              <a class="nav-link " href="#supplier">Fornecedores</a>
+              <a class="nav-link" href="#">Quienes Somos</a>
             </li>
             <li class="">
-              <a class="nav-link" href="#investidor">Instituições Financeiras</a>
-            </li>
-            <li class="">
-              <a class="nav-link" href="#company">Empresas</a>
-            </li>
-            <li class="">
-              <a class="nav-link" href="#">Quem Somos</a>
-            </li>
-            <li class="">
-              <a class="nav-link" target="_blank" href="http://help.monkey.exchange/pt-BR/">Dúvidas</a>
+              <a class="nav-link" target="_blank" href="http://help.monkey.exchange/pt-BR/">Dudas</a>
             </li>
             <button class="btn-full-nav mr-2">
               PT
           </button>
           <button class="btn-border-nav">
           <a href="#contact">
-          Vamos Conversar?
+          ¿ Quieres conversar?
           </a>
           </button>
           </ul>

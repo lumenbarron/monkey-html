@@ -23,14 +23,14 @@ class BrandingCostumer extends HTMLElement {
         <img src='./images/kws.png' id="kws" class="brand-size" alt="kws-company" />
         <img src='./images/gerdau.png' id="gerdau" class="brand-size" alt="gerdau-company" />
       </div>
-      <div class="row container-text">
+      <div class="row container-text-info">
       <p class="supplier-text-icons pb-1">
       Não encontrou a empresa que você fornece ? Entre em contato com a gente e iremos
       responder se a empresa possui a nossa solução.
       </p>
       </div>
       <div class="row container-text">
-      <button class="btn-company mb-3"><a href="#contact"> Entrar em contato </a></button>
+      <button class="btn-branding "><a href="#contact"> Entrar em contato </a></button>
       </div>
     </div>
           `;

@@ -18,22 +18,18 @@ class Contact extends HTMLElement {
       </div>
       <div class="col-sm-12 col-md-6 col-lg-6 contact-form-container border-test">
         <form id="contact-form">
-        <div class="row">
-          <div class="col-lg-6 col-sm-12">
             <div class="label-text label-name">
+              <div style="width: 50%">
               <label for="nome" class="form-label" >Nome</label>
               <input type="nome" class="form-control" id="nome" required />
               <p id="errorName"></p>
             </div>
-          </div>
-          <div class="col-lg-6 col-sm-12">
-            <div class="label-text">
-              <label for="telefone" class="form-label" >Telefone</label>
-              <input type="telefone" class="form-control" id="telefone" required />
+            <div style="width: 50%">
+              <label for="telefone" class="form-label pl-2" >Telefone</label>
+              <input type="telefone" class="form-control ml-2" id="telefone" required />
               <p id="errorTelefone"></p>
             </div>
-          </div>
-        </div>
+            </div>
           <div class="label-text">
             <label for="email" class="form-label" >E-mail</label>
             <input type="email" class="form-control" id="email" required />
