@@ -16,10 +16,10 @@ class Supplier extends HTMLElement {
               <div class="col-sm-12 col-md-12 col-lg-6 order-one border-test supplier-container">
               <button class="btn-supplier mb-4">Proveedor</button>  
               <h2 class="title-h2">
-                  ¿ Notas Fiscales para recibir sólo de aqui a 30, 45 o 120 días? Adelantalas ahora mismo.
+                  ¿ Notas Fiscales para recibir sólo de aqui a 30, 45 o 120 días?.
                 </h2>
                 <h2 class="title-h2">
-                Adelantar ahora mismo.
+                Adelantalas ahora mismo.
               </h2>
                 <p class="main-text">
                 Garantizamos la mejor taza para usted, así podrá descontar de su Nota Fiscal: productos, servicios o transporte. Así, usted recibe más dinero, en el mismo día.
@@ -40,7 +40,7 @@ class Supplier extends HTMLElement {
                 Intereses Competitivos
                 </h5>
                 <p class="supplier-text-icons pb-1">
-                Nuestros intereses es en promedio 70% menor que se cobra en el mercado.
+                Nuestros intereses son en promedio 70% menor del que se cobra en el mercado.
                 </p>
                 </div>
               </div>

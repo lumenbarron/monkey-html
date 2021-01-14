@@ -272,7 +272,7 @@ code {
   border-radius: 8px;
   border: none;
   color: #ffffff;
-  width: 248px;
+  width: 248px !important;
 }
 
 .btn-branding a {

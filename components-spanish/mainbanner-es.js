@@ -12,7 +12,7 @@ class MainBanner extends HTMLElement {
                 </h1>
                 <p class="main-text">
                   Estamos aqui para ayudarle en todos los momentos, proporcionamos la
-                  mejor taza para adelantar sus Nota Fiscales y tener el dinero en el mismo dia.
+                  mejor taza para adelantar sus Nota Fiscales y tener el dinero el mismo dia.
                 </p>
                 <button class="btn-border-header"> <a href="#contact">Saber Más</a></button>
               </div>

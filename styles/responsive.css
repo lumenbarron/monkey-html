@@ -272,7 +272,7 @@ code {
   border-radius: 8px;
   border: none;
   color: #ffffff;
-  width: 248px;
+  width: 248px !important;
 }
 
 .btn-branding a {
@@ -632,6 +632,11 @@ code {
   border: 1px solid #d6d6d6;
 }
 
+.label-text textarea {
+  background: #f5f5f5 !important;
+  border: 1px solid #d6d6d6;
+}
+
 .label-text p {
   font-size: 14px;
   color: red;
@@ -640,6 +645,9 @@ code {
 
 .label-name {
   padding-top: 3rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
 }
 
 .radio-text {

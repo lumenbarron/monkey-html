@@ -15,8 +15,8 @@ class Supplier extends HTMLElement {
             </div>
             <div class="col-sm-12 col-md-12 col-lg-6 order-one border-test supplier-container">
             <button class="btn-supplier mb-4">Fornecedor</button>  
-            <h2 class="title-h2">
-                Notas Fiscais para receber só daqui a 30, 45 ou 120 dias? Antecipe agora mesmo.
+            <h2 class="title-h2 mb-3">
+                Notas Fiscais para receber só daqui a 30, 45 ou 120 dias?.
               </h2>
               <h2 class="title-h2">
               Antecipe agora mesmo.

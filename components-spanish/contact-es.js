@@ -10,22 +10,22 @@ class Contact extends HTMLElement {
     <div class="row contact-container">
       <div class="col-sm-12 col-md-6 col-lg-6 contact-text-container border-test">
         <h1 class="contact-header">
-          Se interessou e quer conversar com a gente?
+          ¿ Se intereso y quiere conversar con nosotros?
           </h1>
           <p class="contact-text">
-          Deixe o seu contato ao lado, que o nosso time de consultores, irá entrar em contato com você para você ter a melhor solução possível.
+          Deje su información al lado, que nuestro equipo de consultores, irá entrar en contacto con usted para que tenga la mejor solución posible.
           </p>
       </div>
       <div class="col-sm-12 col-md-6 col-lg-6 contact-form-container border-test">
         <form id="contact-form">
             <div class="label-text label-name">
               <div style="width: 50%">
-              <label for="nome" class="form-label" >Nome</label>
+              <label for="nome" class="form-label" >Nombre</label>
               <input type="nome" class="form-control" id="nome" required />
               <p id="errorName"></p>
             </div>
             <div style="width: 50%">
-              <label for="telefone" class="form-label pl-2" >Telefone</label>
+              <label for="telefone" class="form-label pl-2" >Teléfono</label>
               <input type="telefone" class="form-control ml-2" id="telefone" required />
               <p id="errorTelefone"></p>
             </div>
@@ -36,28 +36,28 @@ class Contact extends HTMLElement {
             <p id="errorEmail"></p>
           </div>
           <div class="label-text">
-            <label for="message" class="form-label" >Deixe uma mensagem</label>
+            <label for="message" class="form-label" >Deje una mensaje</label>
             <textarea class="form-control" id="message" rows="3" required></textarea>
             <p id="errorMessage"></p>
           </div>
-        <p class="pt-4">Conte para gente como você se enquadra em nosso negócio. Você:</p>
+        <p class="pt-4">Cuentenos como encaja en nuestro negócio. usted es:</p>
           <div>
             <div class="form-check mb-3">
               <input class="form-check-input radio-text" type="radio" name="choice" value="fornecedor" id="fornecedorRadio" checked>
               <label class="form-check-label" for="fornecedorRadio">
-                Fornece para uma Empresa
+                Proveedor para una Empresa
               </label>
             </div>
             <div class="form-check mb-3">
               <input class="form-check-input radio-text" type="radio" name="choice" value="empresa" id="empresaRadio">
               <label class="form-check-label" for="empresaRadio">
-                Tem vários fornecedores
+                Tiene varios proveedores
               </label>
             </div>
             <div class="form-check mb-3">
               <input class="form-check-input radio-text" type="radio" name="choice" value="investidor" id="investidorRadio">
               <label class="form-check-label" for="investidorRadio">
-                É um Investidor
+                Es un Inversionista
               </label>
             </div>
           </div>

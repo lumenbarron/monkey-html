@@ -6,8 +6,8 @@ class BrandingCostumer extends HTMLElement {
     this.innerHTML = `
       <div class="container-fluid container-brand border-test">
       <div class="row container-text">
-      <p class="supplier-text-icons pb-1">
-      Atendemos a las mayores empresas, si usted es proveedor de algunas de ellas, usted puede adelantar sus pagos en nuestro programa.
+      <p class="supplier-text-icons pb-1" style="text-align: center">
+      Atendemos a las grandes empresas, si usted es proveedor de algunas de ellas, usted puede adelantar sus pagos en nuestro programa.
       </p>
       </div>
       <div class="row container-logo-one">

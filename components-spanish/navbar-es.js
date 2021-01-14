@@ -33,6 +33,7 @@ class NavBar extends HTMLElement {
               <a class="dropdown-item nav-link" href="#">Spike</a>
             </div>
           </li>
+          <li class="">
               <a class="nav-link" href="#">Quienes Somos</a>
             </li>
             <li class="">
