@@ -1,13 +1,12 @@
-class MainBanner extends HTMLElement {
+class Equipe extends HTMLElement {
     constructor() {
       super();
     }
     connectedCallback() {
       this.innerHTML = `
-
+  
           `;
     }
   }
   
-  window.customElements.define("main-banner", MainBanner);
-  
+  window.customElements.define("equipe-section", Equipe);
