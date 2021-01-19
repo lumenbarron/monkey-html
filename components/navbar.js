@@ -6,7 +6,7 @@ class NavBar extends HTMLElement {
     this.innerHTML = `
         <nav class="navbar main-nav navbar-expand-lg navbar-light">
         <div class="container-fluid container-nav px-0 pt-4 border-test">
-          <a class="navbar-brand" href="#home">
+          <a class="navbar-brand" href="index.html">
             <img src="images/monkey-logo.svg" class="monkey-logo" alt="monkey-logo" />
           </a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
@@ -34,7 +34,7 @@ class NavBar extends HTMLElement {
               </div>
             </li>
               <li class="">
-                <a class="nav-link" href="#">Quem Somos</a>
+                <a class="nav-link" href="quem-somos.html">Quem Somos</a>
               </li>
               <li class="">
                 <a class="nav-link" target="_blank" href="http://help.monkey.exchange/pt-BR/">Dúvidas</a>

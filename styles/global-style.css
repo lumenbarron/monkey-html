@@ -206,7 +206,8 @@ code {
           justify-content: center;
   -ms-flex-line-pack: center;
       align-content: center;
-  padding-bottom: 4rem;
+  padding: 0 4rem 4rem 4rem;
+  text-align: center;
 }
 
 .container-text-info {
@@ -257,7 +258,7 @@ code {
           justify-content: space-evenly;
   -ms-flex-line-pack: center;
       align-content: center;
-  padding-bottom: 7.5rem;
+  padding-bottom: 10rem;
 }
 
 .brand-size {
