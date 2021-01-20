@@ -763,4 +763,8 @@ code {
   background: #1e232c;
   padding: 1.5rem 3.5rem;
 }
+
+.center-text {
+  text-align: center;
+}
 /*# sourceMappingURL=global-style.css.map */
