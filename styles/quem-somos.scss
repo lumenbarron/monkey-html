@@ -77,6 +77,18 @@
     font-weight: bold;
 }
 
+//Negocio
+.row-container{
+    margin-top: -8rem !important;
+}
+
+.negocio-text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 5rem;
+}
+
 // .text-col{
 //     @include main-text($gray-500, 1.25rem);
 // }
