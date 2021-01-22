@@ -892,4 +892,105 @@ code {
           align-items: center;
   padding: 0 5rem;
 }
+
+.container-spike {
+  margin-top: 1rem;
+  background: #1e232c;
+  border-radius: 32px;
+}
+
+.spike-logo {
+  height: 100%;
+  width: auto;
+}
+
+.text-spike {
+  color: #ffffff;
+  font-size: 1.25rem;
+  padding: 2rem 18.5rem 3rem 18.5rem !important;
+  text-align: center;
+}
+
+.waves {
+  width: 100%;
+}
+
+.container-equipe {
+  margin-top: 9rem;
+}
+
+.equipe-header-1 {
+  margin-left: 11.25rem;
+  margin-bottom: -5rem;
+}
+
+.equipe-text {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-top: 3rem;
+}
+
+.container-midia {
+  margin-top: 3.5rem;
+}
+
+.btn-midia {
+  width: 169px !important;
+  height: 40px;
+  background: #0273e8;
+  border-radius: 40px;
+  border: none;
+  color: #ffffff;
+  -webkit-box-shadow: -8px 12px 11px rgba(2, 115, 232, 0.1);
+          box-shadow: -8px 12px 11px rgba(2, 115, 232, 0.1);
+  font-size: 1rem;
+  line-height: 24px;
+  margin-right: 27rem;
+  margin-top: -7rem;
+  z-index: 2;
+}
+
+.container-info-midia {
+  padding-right: 10rem !important;
+}
+
+.container-info-midia a {
+  font-weight: 600;
+}
+
+.header-midia {
+  color: #72717e;
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin-top: 3.6rem;
+}
+
+.text-midia {
+  color: #9c9ca6;
+  font-size: 1.25rem;
+}
+
+.row-images {
+  margin: 4.5rem 0 10rem 0 !important;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  padding: 0 17rem !important;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#exame {
+  height: 1.5rem;
+}
 /*# sourceMappingURL=quem-somos.css.map */

@@ -89,6 +89,81 @@
     padding: 0 5rem;
 }
 
-// .text-col{
-//     @include main-text($gray-500, 1.25rem);
-// }
+//SPIKE
+.container-spike{
+    margin-top: 1rem;
+    background: $preto-prego;
+    border-radius: 32px;
+}
+
+.spike-logo{
+    height: 100%;
+    width: auto
+}
+
+.text-spike {
+        @include main-text($branco-uacari, 1.25rem);
+        padding: 2rem 18.5rem 3rem 18.5rem !important;
+        text-align: center; 
+}
+
+.waves{
+    width: 100%;
+}
+
+//NOSSA EQUIPE
+.container-equipe{
+    margin-top: 9rem;
+}
+
+.equipe-header-1{
+    margin-left: 11.25rem;
+    margin-bottom: -5rem;
+}
+
+.equipe-text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 3rem;
+}
+
+//Midia
+.container-midia{
+    margin-top: 3.5rem;
+}
+.btn-midia{
+    @include btn-sub-header(169px);
+    margin-right: 27rem;
+    margin-top: -7rem;
+    z-index: 2;
+}
+
+.container-info-midia{
+    padding-right: 10rem !important;
+    a{
+        font-weight: 600;
+    }
+}
+
+.header-midia{
+    @include main-text($gray-500, 2.5rem);
+    font-weight: bold;
+    margin-top: 3.6rem;
+}
+
+.text-midia{
+    @include main-text($gray-400, 1.25rem);
+}
+
+.row-images{
+    margin: 4.5rem 0 10rem 0 !important;
+    display: flex;
+    justify-content: space-around;
+    padding: 0 17rem !important;
+    align-items: center;
+}
+
+#exame{
+    height: 1.5rem;
+}

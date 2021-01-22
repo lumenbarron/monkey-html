@@ -601,13 +601,13 @@ code {
           flex-direction: column;
   background: #eff0f1;
   border-radius: 16px 0px 0px 16px;
-  padding: 0 3rem;
+  padding: 0 3rem !important;
 }
 
 .contact-form-container {
   background: #eff0f1;
   border-radius: 0px 16px 16px 0px;
-  padding: 0 3rem;
+  padding: 0 3rem !important;
 }
 
 .contact-header {
