@@ -98,6 +98,12 @@ line-height: 24px;
   font-size: $size;
 }
 
+@mixin text-container {
+  background: $color-neutral-light;
+  border-radius: 16px 0px 0px 16px;
+  padding: 0 3rem !important;
+}
+
 // General Styles
 .canva-geral {
   padding: 3.5rem 3.5rem 0px;
@@ -441,17 +447,12 @@ line-height: 24px;
   background: $off-black;
   height: 13.5rem;
 }
-.contact-text-container {
-  @include flexDirection(column);
-  background: $color-neutral-light;
-  border-radius: 16px 0px 0px 16px;
-  padding: 0 3rem !important;
-}
 .contact-form-container {
-  // @include  flexDirection(column);
-  background: $color-neutral-light;
-  border-radius: 0px 16px 16px 0px;
-  padding: 0 3rem !important;
+  @include text-container ();
+}
+.contact-text-container {
+  @include text-container ();
+  @include flexDirection(column);
 }
 .contact-header {
   @include main-text($gray-600, 3rem);
