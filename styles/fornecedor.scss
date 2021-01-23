@@ -1,0 +1,98 @@
+@import "./global-style.scss";
+
+//Main Banner
+.container-text-fornecedor{
+    text-align: center;
+    padding: 0 13rem !important;
+}
+
+.btn-fornecedor-header{
+    @include btn-header(185px, $amarelo-guariba);
+    margin-top: 3rem;
+}
+
+.fornecedor-banner{
+    margin-bottom: -18rem;
+}
+
+//Soluções
+.container-solucoes{
+    margin-top: 18rem;
+}
+
+.container-text-solucoes{
+    text-align: center;
+    padding: 0 18rem !important;
+}
+
+.text-blue{
+    color: $azul-roxellana;
+    font-weight: normal !important;
+}
+.row-icons{
+    padding: 0 18rem 4.5rem !important;
+
+}
+
+.col-icons{
+   @include flexSpace(flex-start);
+   align-items: center;
+}
+
+.col-icons-two{
+    @include flexSpace(flex-end);
+    //padding-left: 5rem !important;
+ }
+
+.col-icons-three{
+    padding-right: 3rem !important;
+}
+
+.text-info-icons{
+    @include main-text($off-black, 2rem);
+}
+
+//Fazemos
+.container-fazemos{
+    padding-top: 4rem !important;
+}
+
+.col-fazemos{
+    padding-left: 3rem !important;
+}
+.banner-two{
+    margin-top: -13rem !important;
+}
+
+//Compara
+.container-compara{
+    margin-top: 7rem !important;
+    background: $preto-prego;
+    border-radius: 32px;
+    padding: 5rem 0 !important; 
+}
+.header-compara{
+        @include main-text($branco-uacari, 3rem);
+        font-weight: 700 !important;
+        // margin-top: 5rem !important;     
+}
+
+.text-compara{
+    @include main-text($gray-300, 1.25rem);
+}
+.p-compara{
+padding-bottom: 3rem !important;
+}
+.icons-compara{
+    padding: 0 11rem !important;
+}
+.flex-container{
+    display: flex;
+}
+.monkey-container{
+    padding: 3rem !important;
+    border-left: 3px solid $gray-600;
+}
+.mercado-container{
+    padding: 3rem 0 !important;
+}

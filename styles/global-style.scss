@@ -82,6 +82,17 @@ $gray-100: #f5f5f5;
 line-height: 24px;
 }
 
+@mixin btn-header($width, $color) {
+  width:$width !important;
+  height: 40px;
+  background: transparent;
+  border-radius: 40px;
+  border: 1px solid $color;
+  color: $off-black;
+  font-size: 1rem;
+line-height: 24px;
+}
+
 @mixin btn-medium-border($height) {
   width: 219px;
   height: $height;
@@ -447,12 +458,14 @@ line-height: 24px;
   background: $off-black;
   height: 13.5rem;
 }
-.contact-form-container {
-  @include text-container ();
-}
+
 .contact-text-container {
   @include text-container ();
   @include flexDirection(column);
+}
+.contact-form-container {
+  @include text-container ();
+  border-radius: 0px 16px 16px 0px !important;
 }
 .contact-header {
   @include main-text($gray-600, 3rem);

@@ -587,6 +587,9 @@ code {
 }
 
 .contact-text-container {
+  background: #eff0f1;
+  border-radius: 16px 0px 0px 16px;
+  padding: 0 3rem !important;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -599,15 +602,13 @@ code {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  background: #eff0f1;
-  border-radius: 16px 0px 0px 16px;
-  padding: 0 3rem !important;
 }
 
 .contact-form-container {
   background: #eff0f1;
-  border-radius: 0px 16px 16px 0px;
+  border-radius: 16px 0px 0px 16px;
   padding: 0 3rem !important;
+  border-radius: 0px 16px 16px 0px !important;
 }
 
 .contact-header {

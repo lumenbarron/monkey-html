@@ -19,7 +19,7 @@ class NavBar extends HTMLElement {
               Soluções
                 </a>
                 <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink1">
-                  <a class="dropdown-item nav-link" href="#supplier">Fornecedores</a>
+                  <a class="dropdown-item nav-link" href="fornecedor.html">Fornecedores</a>
                   <a class="dropdown-item nav-link" href="#investidor">Investidor</a>
                   <a class="dropdown-item nav-link" href="#company">Empresas</a>
                 </div>

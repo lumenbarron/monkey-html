@@ -769,229 +769,129 @@ code {
   text-align: center;
 }
 
-.text-main-about {
-  padding: 4rem 12rem 1.5rem !important;
+.container-text-fornecedor {
   text-align: center;
+  padding: 0 13rem !important;
 }
 
-.text-about {
-  padding: 0 11rem 2.5rem !important;
+.btn-fornecedor-header {
+  width: 185px !important;
+  height: 40px;
+  background: transparent;
+  border-radius: 40px;
+  border: 1px solid #e3b839;
+  color: #364254;
+  font-size: 1rem;
+  line-height: 24px;
+  margin-top: 3rem;
+}
+
+.fornecedor-banner {
+  margin-bottom: -18rem;
+}
+
+.container-solucoes {
+  margin-top: 18rem;
+}
+
+.container-text-solucoes {
   text-align: center;
+  padding: 0 18rem !important;
 }
 
-.sobre-nos-banner {
-  width: 100%;
-  height: auto;
-  margin-bottom: 2.5rem;
+.text-blue {
+  color: #0273e8;
+  font-weight: normal !important;
 }
 
-.big-header {
-  font-size: 13.5rem;
-  font-weight: normal;
-  line-height: 253px;
+.row-icons {
+  padding: 0 18rem 4.5rem !important;
 }
 
-.container-btn {
+.col-icons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.col-icons-two {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: end;
       -ms-flex-pack: end;
           justify-content: flex-end;
+  -ms-flex-line-pack: center;
+      align-content: center;
 }
 
-.btn-main {
-  width: 132px !important;
-  height: 40px;
-  background: #0273e8;
-  border-radius: 40px;
-  border: none;
-  color: #ffffff;
-  -webkit-box-shadow: -8px 12px 11px rgba(2, 115, 232, 0.1);
-          box-shadow: -8px 12px 11px rgba(2, 115, 232, 0.1);
-  font-size: 1rem;
-  line-height: 24px;
-  margin-right: 17rem;
-  margin-top: -7rem;
-  z-index: 2;
+.col-icons-three {
+  padding-right: 3rem !important;
 }
 
-.origem-header {
-  padding-top: 5rem;
-  padding-left: 16rem !important;
-  z-index: 1;
-}
-
-.origem-banner {
-  margin-top: -11.5rem;
-}
-
-.origem-text {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-item-align: end;
-      align-self: flex-end;
-  margin-bottom: 6rem;
-}
-
-.btn-num {
-  width: 162px !important;
-  height: 40px;
-  background: #0273e8;
-  border-radius: 40px;
-  border: none;
-  color: #ffffff;
-  -webkit-box-shadow: -8px 12px 11px rgba(2, 115, 232, 0.1);
-          box-shadow: -8px 12px 11px rgba(2, 115, 232, 0.1);
-  font-size: 1rem;
-  line-height: 24px;
-  margin-top: -8rem !important;
-  margin-left: 43rem;
-  z-index: 2;
-}
-
-.text-num {
-  text-align: center;
-}
-
-.container-col {
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-}
-
-.title-col {
-  color: #4b4a53;
+.text-info-icons {
+  color: #364254;
   font-size: 2rem;
-  font-weight: bold;
 }
 
-.row-container {
-  margin-top: -8rem !important;
+.container-fazemos {
+  padding-top: 4rem !important;
 }
 
-.negocio-text {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  padding: 0 5rem;
+.col-fazemos {
+  padding-left: 3rem !important;
 }
 
-.container-spike {
-  margin-top: 1rem;
+.banner-two {
+  margin-top: -13rem !important;
+}
+
+.container-compara {
+  margin-top: 7rem !important;
   background: #1e232c;
   border-radius: 32px;
+  padding: 5rem 0 !important;
 }
 
-.spike-logo {
-  height: 100%;
-  width: auto;
-}
-
-.text-spike {
+.header-compara {
   color: #ffffff;
-  font-size: 1.25rem;
-  padding: 2rem 18.5rem 3rem 18.5rem !important;
-  text-align: center;
+  font-size: 3rem;
+  font-weight: 700 !important;
 }
 
-.waves {
-  width: 100%;
-}
-
-.container-equipe {
-  margin-top: 9rem;
-}
-
-.equipe-header-1 {
-  margin-left: 11.25rem;
-  margin-bottom: -5rem;
-}
-
-.equipe-text {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  padding-top: 3rem;
-}
-
-.container-midia {
-  margin-top: 3.5rem;
-}
-
-.btn-midia {
-  width: 169px !important;
-  height: 40px;
-  background: #0273e8;
-  border-radius: 40px;
-  border: none;
-  color: #ffffff;
-  -webkit-box-shadow: -8px 12px 11px rgba(2, 115, 232, 0.1);
-          box-shadow: -8px 12px 11px rgba(2, 115, 232, 0.1);
-  font-size: 1rem;
-  line-height: 24px;
-  margin-right: 27rem;
-  margin-top: -7rem;
-  z-index: 2;
-}
-
-.container-info-midia {
-  padding-right: 10rem !important;
-}
-
-.container-info-midia a {
-  font-weight: 600;
-}
-
-.header-midia {
-  color: #72717e;
-  font-size: 2.5rem;
-  font-weight: bold;
-  margin-top: 3.6rem;
-}
-
-.text-midia {
-  color: #9c9ca6;
+.text-compara {
+  color: #d6d6d6;
   font-size: 1.25rem;
 }
 
-.row-images {
-  margin: 4.5rem 0 10rem 0 !important;
+.p-compara {
+  padding-bottom: 3rem !important;
+}
+
+.icons-compara {
+  padding: 0 11rem !important;
+}
+
+.flex-container {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
-  padding: 0 17rem !important;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
 }
 
-#exame {
-  height: 1.5rem;
+.monkey-container {
+  padding: 3rem !important;
+  border-left: 3px solid #4b4a53;
 }
-/*# sourceMappingURL=quem-somos.css.map */
+
+.mercado-container {
+  padding: 3rem 0 !important;
+}
+/*# sourceMappingURL=fornecedor.css.map */
