@@ -894,4 +894,60 @@ code {
 .mercado-container {
   padding: 3rem 0 !important;
 }
+
+.historias-container {
+  margin-top: 6.5rem !important;
+}
+
+.container-user {
+  background: #f5f5f5;
+  border: 1px solid #0273e8 !important;
+  border-radius: 16px;
+  padding: 2rem !important;
+}
+
+.text-user {
+  color: #4b4a53;
+  font-size: 1rem;
+}
+
+.midia-container {
+  margin-top: 7.5rem !important;
+  background: #0273e8;
+  border-radius: 32px;
+  padding: 6rem 13rem;
+  text-align: center;
+}
+
+.icons-midia {
+  margin-top: 3rem !important;
+  padding: 0 20rem !important;
+}
+
+.container-list {
+  margin: 8rem 0 !important;
+  border-top: 1px solid #4b4a53;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
+}
+
+.header-list {
+  padding: 5.5rem 13rem 2.5rem !important;
+}
+
+.btn-list {
+  width: 40px;
+  height: 48px;
+  background: #0273e8;
+  border-radius: 8px;
+  border: none;
+  color: #ffffff;
+  width: 360px !important;
+}
 /*# sourceMappingURL=fornecedor.css.map */

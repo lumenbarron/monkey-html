@@ -96,3 +96,47 @@ padding-bottom: 3rem !important;
 .mercado-container{
     padding: 3rem 0 !important;
 }
+
+//Historias
+.historias-container{
+    margin-top: 6.5rem !important;
+}
+.container-user{
+    background: $gray-100;
+border: 1px solid $azul-roxellana !important;
+border-radius: 16px;
+padding: 2rem !important;
+}
+
+.text-user{
+    @include main-text($gray-600, 1rem);
+}
+
+//Midia
+.midia-container{
+    margin-top: 7.5rem !important;
+    background: $azul-roxellana;
+    border-radius: 32px;
+    padding: 6rem 13rem;
+    text-align: center;
+}
+
+.icons-midia{
+    margin-top: 3rem !important;
+    padding: 0 20rem !important;
+}
+
+.container-list{
+    margin: 8rem 0 !important;
+    border-top: 1px solid $gray-600;
+    @include flexSpace(center);
+}
+
+.header-list{
+    padding: 5.5rem 13rem 2.5rem !important;
+}
+
+.btn-list{
+    @include btn-medium-full(48px);
+    width: 360px !important;
+}
