@@ -4,7 +4,7 @@ class BrandingCostumer extends HTMLElement {
   }
   connectedCallback() {
     this.innerHTML = `
-      <div class="container-fluid container-brand border-test">
+      <div class="container-fluid container-brand">
       <div class="row container-text">
       <p class="supplier-text-icons pb-1">
       Atendemos as maiores empresas, se você fornece para algumas delas, você pode antecipar em nosso programa.

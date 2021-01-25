@@ -6,7 +6,7 @@ class Numeros extends HTMLElement {
       this.innerHTML = `
       <div class="container-fluid" id="numeros">
       <div class="row p-0">
-        <h2 class="big-header">
+        <h2 class="big-header" id="num-head">
           NÚMEROS
         </h2>
         <button class="btn-num">De 2020</button>
@@ -16,8 +16,8 @@ class Numeros extends HTMLElement {
           Finalizamos o ano de 2020 com grandes conquistas. Atingimos grandes marcas:
         </p>
       </div>
-      <div class="row container-logo-three border-test">
-        <div class="col text-icons container-col">
+      <div class="row container-logo-three ">
+        <div class="col-sm-3 col-md-3 col-lg-3 container-col">
           <img src='./images/3-users.svg' class="pb-3" alt="3-users-icon" />
           <h2 class="title-col center-text">
             + 1000
@@ -26,7 +26,7 @@ class Numeros extends HTMLElement {
             Usuários
           </p>
         </div>
-        <div class="col text-icons container-col">
+        <div class="col-sm-3 col-md-3 col-lg-3 container-col">
           <img src='./images/3-users.svg' class="pb-3" alt="3-users-icon" />
           <h2 class="title-col center-text">
             R$ 9 Bilhões
@@ -35,7 +35,7 @@ class Numeros extends HTMLElement {
             Movimentados
           </p>
         </div>
-        <div class="col text-icons container-col">
+        <div class="col-sm-3 col-md-3 col-lg-3 container-col">
           <img src='./images/3-users.svg' class="pb-3" alt="3-users-icon" />
           <h2 class="title-col center-text">
             + 25
@@ -44,7 +44,7 @@ class Numeros extends HTMLElement {
             Instituições Financeiras
           </p>
         </div>
-        <div class="col text-icons container-col">
+        <div class="col-sm-6 col-md-3 col-lg-3 container-col">
           <img src='./images/3-users.svg' class="pb-3" alt="3-users-icon" />
           <h2 class="title-col center-text">
             40

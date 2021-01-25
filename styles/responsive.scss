@@ -1,7 +1,16 @@
 @import "./global-style.scss";
 
-@media only screen and (max-width: 769px){
+@media only screen and (max-width: 1200px){
+  .main-nav{
+    .container-nav {
+      justify-content: space-between !important;
+      align-content: center;
+      // flex-direction: row;
+    }
+  }
+}
 
+@media only screen and (max-width: 769px){
   //Supplier
   .order-one {
     order: 1;
@@ -14,13 +23,26 @@
       // margin-left: -2rem;
       margin-top: 2rem;
     }
+    .supplier-container {
+      padding: 0 !important;
+      h2 {
+        font-size: 1.5rem;
+        margin-top: 2rem;
+      }
+    }
+
+    .btn-supplier{
+margin-top: 2rem;
+    }
     .icons-container {
       width: 112%;
       position: relative;
       right: 0;
       margin-top: 2rem !important;
     }
-
+    .container-text-info{
+      padding: 0 4rem 2rem 4rem;
+    }
       //Branding blocks
   .container-brand {
     padding-top: 2rem;
@@ -139,10 +161,6 @@
   // }
   .supplier-container {
     padding-left: 0 !important;
-    h2 {
-      font-size: 1.5rem;
-      margin-top: 2rem;
-    }
   }
   // .icons-container {
   //   width: 112%;
@@ -150,6 +168,7 @@
   //   right: 0;
   //   margin-top: 2rem !important;
   // }
+
   .text-icons {
     display: flex;
     margin: 0;
@@ -349,11 +368,11 @@
   }
   .contact-text-container {
     border-radius: 16px 16px 0px 0px;
-    padding: 0 1rem;
+    padding: 1rem !important;
   }
   .contact-form-container {
-    border-radius: 0px 0px 16px 16px;
-    padding: 0 1rem;
+    border-radius: 0px 0px 16px 16px !important;
+    padding: 1rem !important;
   }
   .contact-header {
     @include main-text($gray-600, 1.5rem);
@@ -410,4 +429,10 @@
     background: $preto-prego;
     padding: 1.5rem;
   }
+  .container-text-info{
+    padding: 0;
+  }
+.container-text {
+  padding: 0 0 1rem 0;
+}
 }

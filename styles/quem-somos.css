@@ -30,10 +30,6 @@ code {
   font-weight: 600;
 }
 
-.border-test {
-  border: 1px solid transparent !important;
-}
-
 .title-h2 {
   color: #4b4a53;
   font-size: 2rem;
@@ -211,9 +207,8 @@ code {
 }
 
 .container-text-info {
-  padding: 0px 19rem;
+  padding: 0 19rem 1rem 0;
   text-align: center;
-  padding-bottom: 1rem;
 }
 
 .brand-text {
@@ -259,6 +254,9 @@ code {
   -ms-flex-line-pack: center;
       align-content: center;
   padding-bottom: 10rem;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .brand-size {
@@ -771,12 +769,10 @@ code {
 
 .text-main-about {
   padding: 4rem 12rem 1.5rem !important;
-  text-align: center;
 }
 
 .text-about {
   padding: 0 11rem 2.5rem !important;
-  text-align: center;
 }
 
 .sobre-nos-banner {
@@ -817,8 +813,7 @@ code {
 }
 
 .origem-header {
-  padding-top: 5rem;
-  padding-left: 16rem !important;
+  padding: 5rem 0 0 16rem !important;
   z-index: 1;
 }
 
@@ -991,7 +986,134 @@ code {
           align-items: center;
 }
 
+.brand-size-midia {
+  width: auto !important;
+  height: 2.5rem;
+}
+
 #exame {
   height: 1.5rem;
+}
+
+@media only screen and (max-width: 769px) {
+  .text-main-about {
+    padding: 2rem 0 !important;
+  }
+  .btn-main {
+    margin-right: 0rem;
+  }
+  .text-about {
+    padding: 0 !important;
+  }
+  .origem-header {
+    padding: 0 !important;
+  }
+  .big-header {
+    font-size: 9rem;
+    line-height: normal;
+  }
+  .origem-banner {
+    margin-top: -7.5rem;
+    width: 100%;
+  }
+  .origem-text {
+    margin-bottom: 0rem;
+  }
+  .btn-num {
+    margin-top: -7rem !important;
+    margin-left: 32rem;
+  }
+  #num-head {
+    font-size: 8rem;
+  }
+  .title-col {
+    color: #4b4a53;
+    font-size: 1.25rem;
+  }
+  .text-spike {
+    padding: 2rem !important;
+  }
+  .container-equipe {
+    margin-top: 3rem;
+  }
+  .equipe-header-1 {
+    margin-left: 0;
+  }
+  .equipe-header-2 {
+    padding-left: 10rem !important;
+  }
+  .equipe-text {
+    padding-top: 0rem;
+    margin-bottom: 1rem;
+  }
+  .container-midia {
+    margin-top: 1rem;
+  }
+  .btn-midia {
+    margin-right: -4rem;
+  }
+  .container-info-midia {
+    padding-right: 0 !important;
+    text-align: center;
+  }
+  .row-images {
+    margin: 2.5rem 0 !important;
+    padding: 0 !important;
+  }
+  .brand-size-midia {
+    height: auto !important;
+  }
+}
+
+@media only screen and (max-width: 426px) {
+  .big-header {
+    font-size: 4.5rem;
+    line-height: normal;
+  }
+  #num-head {
+    font-size: 3.5rem;
+  }
+  #monkey-head {
+    font-size: 4rem;
+  }
+  .btn-main {
+    margin-right: 0;
+    margin-top: -1rem;
+    height: 32px;
+  }
+  .btn-num {
+    margin-left: 7rem;
+    margin-top: -1rem !important;
+    height: 32px;
+  }
+  .btn-midia {
+    margin-right: -1rem;
+    margin-top: -1rem;
+    height: 32px;
+  }
+  .origem-banner {
+    margin-top: 0 !important;
+  }
+  .equipe-header-2 {
+    padding-left: 0 !important;
+  }
+  .estadao {
+    width: 100%;
+    margin-top: 3rem;
+  }
+  .equipe-header-1 {
+    margin-bottom: -2rem;
+  }
+  .equipe-header-2 {
+    padding-left: 2rem !important;
+  }
+  .header-midia {
+    color: #72717e;
+    font-size: 1.5rem;
+  }
+  .brand-size-midia {
+    width: 90px !important;
+    margin-bottom: 1rem;
+  }
 }
 /*# sourceMappingURL=quem-somos.css.map */

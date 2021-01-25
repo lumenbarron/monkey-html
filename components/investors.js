@@ -6,7 +6,7 @@ class Investor extends HTMLElement {
       this.innerHTML = `
       <div class="container-fluid investor-company p-0" id="investidor">
       <div class="row row-company m-0">
-        <div class="col-sm-12 col-md-12 col-lg-6 text-container border-test p-0">
+        <div class="col-sm-12 col-md-12 col-lg-6 text-container p-0">
           <button class="btn-investor mb-3">Investidor</button>
           <h2 class="title-h2">
           Com a Monkey você tem accesso a um grande número de empresas, dividindo risco com outros investidores.
@@ -41,7 +41,7 @@ class Investor extends HTMLElement {
           
         </div>
         </div>
-        <div class="col-sm-12 col-md-12 col-lg-6 border-test p-0">
+        <div class="col-sm-12 col-md-12 col-lg-6 p-0">
           <img
           src='./images/investor-banner.png'
           class="investor-banner"

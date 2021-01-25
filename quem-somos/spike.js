@@ -9,7 +9,7 @@ class Spike extends HTMLElement {
         <div class="mt-5 container-col">
           <img src="images/spike.svg" class="spike-logo" alt="spike-logo" />
         </div>
-        <p class="text-spike">
+        <p class="text-spike center-text">
           E em fevereiro estamos lançando nosso segundo produto, Spike é mais uma solução financeira para que
           estabelecimentos comerciais possam antecipar as vendas em maquininhas de uma maneira fácil, ágil e com
           juros baixos.

@@ -5,7 +5,7 @@ class NavBar extends HTMLElement {
   connectedCallback() {
     this.innerHTML = `
         <nav class="navbar main-nav navbar-expand-lg navbar-light">
-        <div class="container-fluid container-nav px-0 pt-4 border-test">
+        <div class="container-fluid container-nav px-0 pt-4">
           <a class="navbar-brand" href="index.html">
             <img src="images/monkey-logo.svg" class="monkey-logo" alt="monkey-logo" />
           </a>

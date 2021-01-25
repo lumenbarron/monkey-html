@@ -30,10 +30,6 @@ code {
   font-weight: 600;
 }
 
-.border-test {
-  border: 1px solid transparent !important;
-}
-
 .title-h2 {
   color: #4b4a53;
   font-size: 2rem;
@@ -211,9 +207,8 @@ code {
 }
 
 .container-text-info {
-  padding: 0px 19rem;
+  padding: 0 19rem 1rem 0;
   text-align: center;
-  padding-bottom: 1rem;
 }
 
 .brand-text {
@@ -259,6 +254,9 @@ code {
   -ms-flex-line-pack: center;
       align-content: center;
   padding-bottom: 10rem;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .brand-size {

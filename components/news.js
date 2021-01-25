@@ -4,15 +4,15 @@ class News extends HTMLElement {
   }
   connectedCallback() {
     this.innerHTML = `
-      <div class="container-fluid px-0 border-test">
+      <div class="container-fluid px-0">
       <div class="row container-title m-0">
         <h4 class="brand-text">Estamos em todos os cantos</h4>
       </div>
-      <div class="row m-0 carousel-container border-test">
+      <div class="row m-0 carousel-container">
         <button aria-label="before" class="carousel-prev button-icons px-0">
         <img src='./images/icon-prev.svg' class="" alt="icon-graph" />
         </button>
-       <div class="carousel-list px-0 border-test">
+       <div class="carousel-list px-0">
         <div class=" news-container1">
           <p class="data-text">Dezembro/2020</p>
           <a>

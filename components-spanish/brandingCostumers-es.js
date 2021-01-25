@@ -4,7 +4,7 @@ class BrandingCostumer extends HTMLElement {
   }
   connectedCallback() {
     this.innerHTML = `
-      <div class="container-fluid container-brand border-test">
+      <div class="container-fluid container-brand">
       <div class="row container-text">
       <p class="supplier-text-icons pb-1" style="text-align: center">
       Atendemos a las grandes empresas, si usted es proveedor de algunas de ellas, usted puede adelantar sus pagos en nuestro programa.

@@ -30,10 +30,6 @@ code {
   font-weight: 600;
 }
 
-.border-test {
-  border: 1px solid transparent !important;
-}
-
 .title-h2 {
   color: #4b4a53;
   font-size: 2rem;
@@ -211,9 +207,8 @@ code {
 }
 
 .container-text-info {
-  padding: 0px 19rem;
+  padding: 0 19rem 1rem 0;
   text-align: center;
-  padding-bottom: 1rem;
 }
 
 .brand-text {
@@ -259,6 +254,9 @@ code {
   -ms-flex-line-pack: center;
       align-content: center;
   padding-bottom: 10rem;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .brand-size {
@@ -769,6 +767,16 @@ code {
   text-align: center;
 }
 
+@media only screen and (max-width: 1200px) {
+  .main-nav .container-nav {
+    -webkit-box-pack: justify !important;
+        -ms-flex-pack: justify !important;
+            justify-content: space-between !important;
+    -ms-flex-line-pack: center;
+        align-content: center;
+  }
+}
+
 @media only screen and (max-width: 769px) {
   .order-one {
     -webkit-box-ordinal-group: 2;
@@ -784,11 +792,24 @@ code {
     height: 600px;
     margin-top: 2rem;
   }
+  .supplier-container {
+    padding: 0 !important;
+  }
+  .supplier-container h2 {
+    font-size: 1.5rem;
+    margin-top: 2rem;
+  }
+  .btn-supplier {
+    margin-top: 2rem;
+  }
   .icons-container {
     width: 112%;
     position: relative;
     right: 0;
     margin-top: 2rem !important;
+  }
+  .container-text-info {
+    padding: 0 4rem 2rem 4rem;
   }
   .container-brand {
     padding-top: 2rem;
@@ -912,10 +933,6 @@ code {
   }
   .supplier-container {
     padding-left: 0 !important;
-  }
-  .supplier-container h2 {
-    font-size: 1.5rem;
-    margin-top: 2rem;
   }
   .text-icons {
     display: -webkit-box;
@@ -1201,11 +1218,11 @@ code {
   }
   .contact-text-container {
     border-radius: 16px 16px 0px 0px;
-    padding: 0 1rem;
+    padding: 1rem !important;
   }
   .contact-form-container {
-    border-radius: 0px 0px 16px 16px;
-    padding: 0 1rem;
+    border-radius: 0px 0px 16px 16px !important;
+    padding: 1rem !important;
   }
   .contact-header {
     color: #4b4a53;
@@ -1279,6 +1296,12 @@ code {
             flex-direction: row;
     background: #1e232c;
     padding: 1.5rem;
+  }
+  .container-text-info {
+    padding: 0;
+  }
+  .container-text {
+    padding: 0 0 1rem 0;
   }
 }
 /*# sourceMappingURL=responsive.css.map */

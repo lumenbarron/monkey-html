@@ -11,10 +11,10 @@ class Negocio extends HTMLElement {
         </h1>
       </div>
       <div class="row row-container">
-        <div class="col-sm-12 col-md-12 col-lg-6 border-test">
+        <div class="col-sm-12 col-md-12 col-lg-6 ">
           <img src='./images/negocio.svg' class="negocio-banner" alt="negocio" />
         </div>
-        <div class="col-sm-12 col-md-12 col-lg-6 border-test negocio-text">
+        <div class="col-sm-12 col-md-12 col-lg-6  negocio-text">
           <p class="main-text ">
             Começamos com <b>Supply Chain Finance</b> , implementamos uma plataforma white-label em <b> grandes
               empresas</b>, para conectar <b>fornecedores</b> com<b> instituições financeiras</b> em um

@@ -64,7 +64,7 @@ class Footer extends HTMLElement {
         </p>
       </div>
       <form onchange="selectLang()">
-      <div class="m-0 lenguage-row border-test">
+      <div class="m-0 lenguage-row">
         <div class="radio-input">
           
           <label class="form-check-label" for="portuguesRadio">

@@ -7,7 +7,7 @@ class Company extends HTMLElement {
       <div class="container-fluid main-company p-0" id="company">
       <div class="row row-company m-0">
         <div
-          class="col-sm-12 col-md-12 col-lg-6 text-container border-test p-0"
+          class="col-sm-12 col-md-12 col-lg-6 text-container p-0"
         >
           <button class="btn-company mb-3">Âncora</button>
           <h2 class="title-h2">
@@ -44,7 +44,7 @@ class Company extends HTMLElement {
             
           </div>
         </div>
-      <div class="col-sm-12 col-md-12 col-lg-6 border-test p-0">
+      <div class="col-sm-12 col-md-12 col-lg-6 p-0">
         <img
           src="./images/company-banner-es.png"
           class="company-banner"
@@ -62,8 +62,8 @@ class Company extends HTMLElement {
           <h4>Algunas de nuestras soluciones</h4>
         </div>
         <div class="row m-0">
-          <div class="col-lg-3 col-md-6 product-card-container pr-0 border-test">
-            <div class="border-test product-card">
+          <div class="col-lg-3 col-md-6 product-card-container pr-0">
+            <div class= product-card">
               <div class="product-text">
               <div class="product-card-title">
                 <img src='./images/icon-heart.svg' class="pb-3" alt="icon-heart" />
@@ -75,8 +75,8 @@ class Company extends HTMLElement {
               </div>
             </div>
           </div>
-          <div class="col-lg-3 col-md-6 product-card-container pr-0 border-test">
-            <div class="border-test product-card">
+          <div class="col-lg-3 col-md-6 product-card-container pr-0">
+            <div class= product-card">
               <div class="product-text">
               <div class="product-card-title">
                 <img src='./images/icon-star.svg' class="pb-3" alt="icon-star" />
@@ -89,8 +89,8 @@ class Company extends HTMLElement {
               </div>
             </div>
           </div>
-          <div class="col-lg-3 col-md-6 product-card-container pr-0 border-test">
-            <div class="border-test product-card">
+          <div class="col-lg-3 col-md-6 product-card-container pr-0">
+            <div class= product-card">
               <div class="product-text">
               <div class="product-card-title">
                 <img src='./images/icon-work.svg' class="pb-3" alt="icon-work" />
@@ -102,8 +102,8 @@ class Company extends HTMLElement {
               </div>
             </div>
           </div>
-          <div class="col-lg-3 col-md-6 product-card-container pr-0 border-test">
-            <div class="border-test product-card">
+          <div class="col-lg-3 col-md-6 product-card-container pr-0">
+            <div class= product-card">
               <div class="product-text">
               <div class="product-card-title">
                 <img src='./images/icon-graph.svg' class="pb-3" alt="icon-graph" />

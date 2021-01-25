@@ -8,7 +8,7 @@ class Contact extends HTMLElement {
     this.innerHTML = `
     <div class="container-fluid" id="contact">
     <div class="row contact-container">
-      <div class="col-sm-12 col-md-6 col-lg-6 contact-text-container border-test">
+      <div class="col-sm-12 col-md-6 col-lg-6 contact-text-container">
         <h1 class="contact-header">
           Se interessou e quer conversar com a gente?
           </h1>
@@ -16,7 +16,7 @@ class Contact extends HTMLElement {
           Deixe o seu contato ao lado, que o nosso time de consultores, irá entrar em contato com você para você ter a melhor solução possível.
           </p>
       </div>
-      <div class="col-sm-12 col-md-6 col-lg-6 contact-form-container border-test">
+      <div class="col-sm-12 col-md-6 col-lg-6 contact-form-container">
         <form id="contact-form">
             <div class="label-text label-name">
               <div style="width: 50%">

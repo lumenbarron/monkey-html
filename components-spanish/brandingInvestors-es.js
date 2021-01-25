@@ -4,7 +4,7 @@ class BrandingInvestors extends HTMLElement {
     }
     connectedCallback() {
       this.innerHTML = `
-        <div class="container-fluid container-brand border-test">
+        <div class="container-fluid container-brand">
         <div class="row container-text">
           <h4 class="brand-text">
             Más de 25 inversionistas nacionales e internacionales listos para conectar en su programa y financiar su cadena.

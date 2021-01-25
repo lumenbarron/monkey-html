@@ -6,14 +6,14 @@ class Supplier extends HTMLElement {
     this.innerHTML = `
         <div class="container-fluid" id="supplier">
           <div class="row">
-            <div class="col-sm-12 col-md-12 col-lg-6 order-two border-test flex-general p-0">
+            <div class="col-sm-12 col-md-12 col-lg-6 order-two flex-general p-0">
               <img
               src='./images/supplier-banner-2.png'
               class="supplier-banner"
               alt="supplier-banner"
             />
             </div>
-            <div class="col-sm-12 col-md-12 col-lg-6 order-one border-test supplier-container">
+            <div class="col-sm-12 col-md-12 col-lg-6 order-one supplier-container">
             <button class="btn-supplier mb-4">Fornecedor</button>  
             <h2 class="title-h2 mb-3">
                 Notas Fiscais para receber só daqui a 30, 45 ou 120 dias?.
@@ -32,7 +32,7 @@ class Supplier extends HTMLElement {
               </a>
             </div>
           </div>
-          <div class="row icons-container border-test">
+          <div class="row icons-container">
             <div class="col text-icons">
               <img src='./images/calendar.svg' class="pb-3" alt="calendar-icon" />
               <div>
