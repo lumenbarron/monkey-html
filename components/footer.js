@@ -12,14 +12,14 @@ class Footer extends HTMLElement {
         <div class="col-sm-12 col-md-3 col-lg-3 titles-footer">
           <h6>Produtos</h6>
           <a class="text-footer" href="#company"><p>Empresas</p></a>
-          <a class="text-footer" href="#supplier"><p>Fornecedores</p></a>
-          <a class="text-footer" href="#investidor"><p>Instituições Financeiras</p></a>
+          <a class="text-footer" href="fornecedor.html"><p>Fornecedores</p></a>
+          <a class="text-footer" href="#investidor"><p>Investidor</p></a>
         </div>
         <div class="col-sm-12 col-md-3 col-lg-3 titles-footer">
           <h6>Institucional</h6>
           <p>Sobre Nós</p>
           <a class="text-footer" target="_blank" href="http://help.monkey.exchange/pt-BR/"><p>Dúvidas</p></a>
-          <p>Quem Somos</p>
+          <a class="text-footer" target="_blank" href="quem-somos.html"><p>Quem Somos</p></a>
         </div>
         <div class="col-sm-12 col-md-3 col-lg-3 titles-footer">
           <h6>Redes Socias</h6>
