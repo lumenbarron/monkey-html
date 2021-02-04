@@ -16,8 +16,8 @@ class Origem extends HTMLElement {
       <div class="col-sm-12 col-md-12 col-lg-7 origem-text">
         <p class="main-text p-0">
           Nascimos en el 2016, desde ahí fue mucho aprendizaje y mucho impacto en la economia de nuestros clientes. Nuestros
-          fundadores Gustavo Mueller, Bruno Oliveira e Felipe Adorno traen en su experiencia grandes conocimentos
-          en el mercado financiero y de tecnología. Juntos trajeron una nueva visión de como el crédito es entendido y
+          fundadores Gustavo Mueller, Bruno Oliveira y Felipe Adorno traen en su experiencia grandes conocimentos
+          del mercado financiero y de tecnología. Juntos trajeron una nueva visión de como el crédito es entendido y
           valuado en Brasil.
         </p>
       </div>

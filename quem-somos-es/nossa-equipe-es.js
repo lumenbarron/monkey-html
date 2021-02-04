@@ -11,8 +11,8 @@ class Equipe extends HTMLElement {
       <div class="row">
         <div class="col-sm-12 col-md-12 col-lg-5 order-two equipe-text">
           <p class="main-text ">
-            Caminamos en nuestra misión y nuestro equipo está cada vez mais comprometida en alcanzar nuestro propósito.
-            Estamos creando un equipo creativo y diversificado para crear el meljor producto e impactar la vida de
+            Caminamos en nuestra misión y nuestro equipo está cada vez más comprometido en alcanzar nuestro propósito.
+            Estamos creando un equipo creativo y diversificado para crear el mejor producto e impactar la vida de
             millones.
           </p>
         </div>

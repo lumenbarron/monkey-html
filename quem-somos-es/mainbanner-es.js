@@ -7,7 +7,7 @@ class MainBanner extends HTMLElement {
       <div class="container-fluid" id="home">
       <div class="row">
         <h1 class="contact-header center-text text-main-about">
-          Monkey nasció con el propósito de meljorar la salud financiera de los pequeños y medianos proveedores.
+          Monkey nació con el propósito de mejorar la salud financiera de los pequeños y medianos proveedores.
         </h1>
         <p class="main-text center-text text-about">
           Soluciones que conectan grandes empresas con grandes inversionistas para ayudar a los proveedores, trayendo una
