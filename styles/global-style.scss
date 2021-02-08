@@ -70,6 +70,15 @@ $gray-100: #f5f5f5;
   color: $branco-uacari;
 }
 
+@mixin btn-medium-white($width) {
+  width: $width !important;
+  height: 48px ;
+  color: $azul-roxellana;
+  border-radius: 8px;
+  border: none;
+  background: $branco-uacari;
+}
+
 @mixin btn-sub-header($width) {
   width:$width !important;
   height: 40px;

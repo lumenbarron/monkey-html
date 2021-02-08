@@ -18,6 +18,7 @@
 .main-text-forn {
     @include main-text($gray-600, 1.25rem);
     padding-right: 3rem;
+    line-height: 32px;
   }
 
 //Soluções
