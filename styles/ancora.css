@@ -901,6 +901,10 @@ code {
   color: #ffffff;
 }
 
+.container-historias {
+  margin-bottom: 9rem;
+}
+
 @media only screen and (max-width: 769px) {
   .container-text-ancora {
     padding: 0 !important;
@@ -919,6 +923,9 @@ code {
   }
   .row-icons-anc {
     padding: 0 !important;
+  }
+  .container-historias {
+    margin-bottom: 2rem;
   }
   .col-fazemos-2 {
     padding: 0 !important;
