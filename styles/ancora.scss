@@ -31,10 +31,7 @@
 }
 
 .midia-container-ancora {
-    margin-top: 3rem !important;
-    background: #0273e8;
-    border-radius: 32px;
-    padding: 4rem 13rem;
+    @include container-background($azul-roxellana);
     @include flexCenter();
 }
 

@@ -24,6 +24,33 @@
     padding-top: 10rem !important;
 }
 
+.midia-container-investidor {
+    @include container-background($verde-folha);
+    @include flexCenter();
+}
+
+.btn-fazemos-inv{
+    @include btn-medium-white(360px);
+    margin-top: 3rem !important;
+    color: $verde-folha;
+    a{
+        color: $verde-folha;
+        text-decoration: none;
+    }
+}
+
+.ventagens-investor{
+    @include container-background($gray-100);
+    margin-top: 6.5rem !important;
+    padding: 11.25rem 13rem;
+}
+
+.container-brand-inv{
+    padding-top: 15rem;
+    padding-bottom: 8.5rem;
+}
+
+
 @media only screen and (max-width: 769px){
     // .container-text-fornecedor{
     //     padding: 0 !important;
@@ -33,6 +60,10 @@
     }
     .investidor-banner {
         margin-bottom: -12rem;
+    }
+    .midia-container-investidor {
+        margin-top: 3rem !important;
+        padding: 3rem;
     }
     // .container-solucoes {
     //     margin-top: 12rem;
