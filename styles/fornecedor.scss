@@ -70,8 +70,16 @@
 .col-fazemos{
     padding-left: 3rem !important;
 }
-.banner-two{
-    margin-top: -13rem !important;
+// .banner-two{
+//     margin-top: -13rem !important;
+// }
+.bannner-two-lines{
+    background: url(../images/como-fazemos-two-lines.png);
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 142px;
+    margin-top: -12rem;
+    margin-left: 24rem;
 }
 
 //Compara
@@ -189,9 +197,16 @@ padding: 2rem !important;
       .col-fazemos{
         padding-left: 0 !important;
     }
-    .banner-two {
-        margin-top: 0 !important;
-        width: 100%;
+    // .banner-two {
+    //     margin-top: 0 !important;
+    //     width: 100%;
+    // }
+    .bannner-two-lines{
+        background: url(../images/como-fazemos-two-line.png);
+        background-repeat: no-repeat;
+        margin-top: -3rem;
+        margin-left: 11rem;
+        width: 10%;
     }
     .container-compara {
         margin-top: 2rem !important;
