@@ -6,7 +6,7 @@ class Contact extends HTMLElement {
   connectedCallback() {
     console.log('contact');
     this.innerHTML = `
-    <div class="container-fluid" id="contact">
+    <div class="container-fluid" id="contact-es">
     <div class="row contact-container">
       <div class="col-sm-12 col-md-6 col-lg-6 contact-text-container">
         <h1 class="contact-header">
