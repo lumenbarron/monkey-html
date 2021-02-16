@@ -4,7 +4,7 @@ class Company extends HTMLElement {
     }
     connectedCallback() {
       this.innerHTML = `
-      <div class="container-fluid main-company p-0" id="company">
+      <div class="container-fluid main-company p-0" id="company-es">
       <div class="row row-company m-0">
         <div
           class="col-sm-12 col-md-12 col-lg-6 text-container p-0"
@@ -63,7 +63,7 @@ class Company extends HTMLElement {
         </div>
         <div class="row m-0">
           <div class="col-lg-3 col-md-6 product-card-container pr-0">
-            <div class= product-card">
+            <div class= "product-card">
               <div class="product-text">
               <div class="product-card-title">
                 <img src='./images/icon-heart.svg' class="pb-3" alt="icon-heart" />
@@ -76,7 +76,7 @@ class Company extends HTMLElement {
             </div>
           </div>
           <div class="col-lg-3 col-md-6 product-card-container pr-0">
-            <div class= product-card">
+            <div class= "product-card">
               <div class="product-text">
               <div class="product-card-title">
                 <img src='./images/icon-star.svg' class="pb-3" alt="icon-star" />
@@ -90,7 +90,7 @@ class Company extends HTMLElement {
             </div>
           </div>
           <div class="col-lg-3 col-md-6 product-card-container pr-0">
-            <div class= product-card">
+            <div class= "product-card">
               <div class="product-text">
               <div class="product-card-title">
                 <img src='./images/icon-work.svg' class="pb-3" alt="icon-work" />
@@ -103,7 +103,7 @@ class Company extends HTMLElement {
             </div>
           </div>
           <div class="col-lg-3 col-md-6 product-card-container pr-0">
-            <div class= product-card">
+            <div class= "product-card">
               <div class="product-text">
               <div class="product-card-title">
                 <img src='./images/icon-graph.svg' class="pb-3" alt="icon-graph" />

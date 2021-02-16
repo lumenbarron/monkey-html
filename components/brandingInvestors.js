@@ -4,12 +4,6 @@ class BrandingInvestors extends HTMLElement {
   }
   connectedCallback() {
     this.innerHTML = `
-      <div class="container-fluid container-brand">
-      <div class="row container-text">
-        <h4 class="brand-text">
-          Mais de 25 Investidores nacionais e internacionais prontos para conectar em seu programa e financiar sua cadeia.
-    </h4>
-      </div>
       <div class="row container-logo-one">
         <img src='./images/bib.png' class="brand-size" alt="bib-company" />
         <img src='./images/bnp.svg' id="bnp" class="brand-size" alt="bnp-company" />
@@ -22,7 +16,6 @@ class BrandingInvestors extends HTMLElement {
         <img src='./images/itau.svg' id='itau' class="brand-size" alt="itau-company" />
         <img src='./images/safra.svg' id='safra' class="brand-size" alt="safra-company" />
       </div>
-    </div>
             `;
   }
 }

@@ -38,7 +38,6 @@ class Investor extends HTMLElement {
           </p>
           </div>
         </div>
-          
         </div>
         </div>
         <div class="col-sm-12 col-md-12 col-lg-6 p-0">

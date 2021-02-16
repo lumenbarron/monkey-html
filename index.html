@@ -38,28 +38,189 @@
       <div class="canva-geral">
         <div class="first-block">
           <navbar-section></navbar-section>
-          <main-banner></main-banner>
+          <!-- MainBanner -->
+          <div class="container-fluid" id="home">
+            <div class="row">
+              <div class="col-sm-12 col-md-12 col-lg-6 px-0 text-container">
+                <h1 class="main-header mb-2">
+                  A Monkey ajuda você fornecedor a antecipar Notas Fiscais.
+                </h1>
+                <p class="main-text">
+                  Estamos aqui para te ajudar em todos os momentos, providenciamos a
+                  melhor taxa para você antecipar sua Nota Fiscal e ter o dinheiro no
+                  mesmo dia.
+                </p>
+                <button class="btn-border-header"> <a href="#contact">Saiba Mais </a></button>
+              </div>
+              <div class="col-sm-12 col-md-12 col-lg-6 px-0 flex-general">
+                <img src='./images/main-banner.png' class="monkey-banner" alt="monkey-banner" />
+              </div>
+            </div>
+          </div>
         </div>
         <div class="general-padding">
-          <supplier-section></supplier-section>
-          <branding-costumer></branding-costumer>
+          <!-- Supplier -->
+          <div class="container-fluid" id="supplier">
+            <div class="row">
+              <div class="col-sm-12 col-md-12 col-lg-6 order-two flex-general p-0">
+                <img
+                src='./images/supplier-banner-2.png'
+                class="supplier-banner"
+                alt="supplier-banner"
+              />
+              </div>
+              <div class="col-sm-12 col-md-12 col-lg-6 order-one supplier-container">
+              <button class="btn-supplier mb-4">Fornecedor</button>  
+              <h2 class="title-h2 mb-3">
+                  Notas Fiscais para receber só daqui a 30, 45 ou 120 dias?.
+                </h2>
+                <h2 class="title-h2">
+                Antecipe agora mesmo.
+              </h2>
+                <p class="main-text">
+                Garantimos para você a melhor taxa, para que você desconte sua Nota Fiscal de: produto, serviço ou de transporte (CTE). Assim, você recebe mais dinheiro, no mesmo dia
+                </p>
+                <p class="main-text">
+                Com esse dinheiro você pode pagar uma dívida mais cara ou investir em seu negócio para vender mais.
+                </p>
+                <a class="link-style" href="#contact">
+                  Saiba mais sobre as vantagens.
+                </a>
+              </div>
+            </div>
+            <div class="row icons-container">
+              <div class="col text-icons">
+                <img src='./images/calendar.svg' class="pb-3" alt="calendar-icon" />
+                <div>
+                <h5 class="title-icons">
+                Juros Competitivos
+                </h5>
+                <p class="supplier-text-icons pb-1">
+                Nossos juros é em media 70% menor que o mercado cobra.
+                </p>
+                </div>
+              </div>
+              <div class="col text-icons">
+                <img src='./images/chart.svg' class="pb-3" alt="chart.png-icon" />
+                <div>
+                <h5 class="title-icons">
+                Antecipe Notas Fiscais
+                </h5>
+                <p class="supplier-text-icons pb-1">
+                A solução para a sua Nota Fiscal a partir de 15 dias.
+                </p>
+                </div>
+              </div>
+              <div class="col text-icons">
+                <img src='./images/wallet.svg' class="pb-3" alt="wallet.svg-icon" />
+                <div>
+                <h5 class="title-icons">
+                Dinheiro no Mesmo Dia
+                </h5>
+                <p class="supplier-text-icons pb-1">
+                Nossos investidores depositam o dinheiro no mesmo dia.
+                </p>
+                </div>
+                </div>
+            </div>
+          </div>
+          <!-- branding-costumer -->
+          <div class="container-fluid container-brand">
+            <div class="row container-text">
+            <p class="supplier-text-icons pb-1">
+            Atendemos as maiores empresas, se você fornece para algumas delas, você pode antecipar em nosso programa.
+            </p>
+            </div>
+            <div class="row container-logo-one">
+              <img src='./images/natura.png' class="brand-size" alt="natura-company" />
+              <img src='./images/philco.png' id="philco" class="brand-size" alt="philco-company" />
+              <img src='./images/ifood.png' id="ifood" class="brand-size" alt="ifood-company" />
+              <img src='./images/braskem.png' id="braskem" class="brand-size" alt="braskem-company" />
+            </div>
+            <div class="row container-logo-two">
+              <img src='./images/petrobras.png' id="petrobras" class="brand-size" alt="petrobras-company" />
+              <img src='./images/minerva.png' class="brand-size" alt="minerva-company" />
+              <img src='./images/mdias.png' id="mdias" class="brand-size" alt="mdias-company" />
+              <img src='./images/kws.png' id="kws" class="brand-size" alt="kws-company" />
+              <img src='./images/gerdau.png' id="gerdau" class="brand-size" alt="gerdau-company" />
+            </div>
+            <div class="row container-text-info">
+            <p class="supplier-text-icons pb-1 center-text">
+            Não encontrou a empresa que você fornece ? Entre em contato com a gente e iremos
+            responder se a empresa possui a nossa solução.
+            </p>
+            </div>
+            <div class="row container-text">
+            <button class="btn-branding "><a href="#contact"> Entrar em contato </a></button>
+            </div>
+          </div>
         </div>
       </div>
       <company-section></company-section>
-      <branding-investors></branding-investors>
-      <investor-section></investor-section>
+      <!-- branding-investors -->
+      <div class="container-fluid container-brand">
+        <div class="row container-text">
+          <h4 class="brand-text">
+            Mais de 25 Investidores nacionais e internacionais prontos para conectar em seu programa e financiar sua cadeia.
+      </h4>
+        </div>
+        <branding-investors></branding-investors>
+      </div>
+      <!-- Investors -->
+      <div class="container-fluid investor-company p-0" id="investidor">
+        <div class="row row-company m-0">
+          <div class="col-sm-12 col-md-12 col-lg-6 text-container p-0">
+            <button class="btn-investor mb-3">Investidor</button>
+            <h2 class="title-h2">
+            Com a Monkey você tem accesso a um grande número de empresas, dividindo risco com outros investidores.
+            </h2>
+            <p class="main-text">
+            Opere com grandes empresas, em uma Plataforma 
+            ágil, facil e eficaz. Com onboarding totalmente digital, em um ambiente com
+            total controle e transparência.
+            </p>
+            <a class="link-style" href="#contact">
+              Entenda as vantagens de ter um programa.
+          </a>
+          <div class="row icons-container-left m-0">
+          <div class="col text-icons">
+          <img src="./images/chart.svg" class="pb-3" alt="chart-icon" />
+          <div>
+          <h5 class="title-icons">Onboarding Online</h5>
+          <p class="supplier-text-icons pr-4">
+          Todos os cadastros de Fornecedor e Âncoras, são feito totalmente online. 
+          </p>
+          </div>
+        </div>    
+          <div class="col text-icons">
+            <img src='./images/calendar.svg' class="pb-3" alt="calendar-icon" />
+            <div>
+            <h5 class="title-icons">Processo Ágil e Fácil</h5>
+            <p class="supplier-text-icons">
+            Uma Plataforma intuitiva, e todos processos digitais e online.
+            </p>
+            </div>
+          </div>
+            
+          </div>
+          </div>
+          <div class="col-sm-12 col-md-12 col-lg-6 p-0">
+            <img
+            src='./images/investor-banner.png'
+            class="investor-banner"
+            alt="investor-banner"
+          />
+          </div>
+        </div>
+      </div>
       <news-section></news-section>
       <contact-section></contact-section>
       <footer-section></footer-section>
     </section>
     <script src="https://cdn.jsdelivr.net/npm/sweetalert2@10"></script>
     <script src="./components/navbar.js"></script>
-    <script src="./components/mainbanner.js"></script>
-    <script src="./components/supplier.js"></script>
-    <script src="./components/brandingCostumers.js"></script>
     <script src="./components/brandingInvestors.js"></script>
     <script src="./components/company.js"></script>
-    <script src="./components/investors.js"></script>
     <script src="./components/news.js"></script>
     <script src="./components/contact.js"></script>
     <script src="./components/footer.js"></script>
