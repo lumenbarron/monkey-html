@@ -35,7 +35,7 @@ class Company extends HTMLElement {
             <div class="col text-icons">
               <img src="./images/work.svg" class="pb-3" alt="work-icon" />
               <div>
-              <h5 class="title-icons">Flexibilidade no Pago</h5>
+              <h5 class="title-icons">Flexibilidad de Pago</h5>
               <p class="supplier-text-icons">
                 Con nuestra solución tenga más flexibilidad para pagar a sus proveedores.
               </p>
@@ -83,7 +83,7 @@ class Company extends HTMLElement {
                 <h5>Plazo de pago.</h5>
                 </div>
                 <p class="supplier-text-icons m-0">
-                Mejore su flujo de caja ou gane líquides aumentando su
+                Mejore su flujo de caja y gane líquides aumentando su
                 plazo de pago.
                 </p>
               </div>
@@ -107,10 +107,10 @@ class Company extends HTMLElement {
               <div class="product-text">
               <div class="product-card-title">
                 <img src='./images/icon-graph.svg' class="pb-3" alt="icon-graph" />
-                <h5>Acesso a lineas de créditos.</h5>
+                <h5>Acceso a lineas de créditos.</h5>
                 </div>
                 <p class="supplier-text-icons m-0">
-                  Su empresa tendrá acesso a más de 25 inversionistas para las lineas de créditos.
+                  Su empresa tendrá acceso a más de 25 inversionistas para las lineas de créditos.
                 </p>
               </div>
             </div>

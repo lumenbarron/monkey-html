@@ -9,11 +9,11 @@ class Investor extends HTMLElement {
         <div class="col-sm-12 col-md-12 col-lg-6 text-container p-0">
           <button class="btn-investor mb-3">Inversionista</button>
           <h2 class="title-h2">
-          Con Monkey usted tiene accesso a un grande número de empresas, dividiendo el riesgo con otros inversionistas.
+          Con Monkey usted tiene acceso a un grande número de empresas, dividiendo el riesgo con otros inversionistas.
           </h2>
           <p class="main-text">
           Opere con grandes empresas, en una plataforma 
-          ágil, fácil y eficaz. Con onboarding totalmente digital, en un ambiente con
+          ágil, fácil y eficaz. Con inducción totalmente digital, en un ambiente con
           total control e transparencia.
           </p>
           <a class="link-style" href="#contact">

@@ -13,7 +13,7 @@ class Contact extends HTMLElement {
           ¿ Se intereso y quiere conversar con nosotros?
           </h1>
           <p class="contact-text">
-          Deje su información al lado, que nuestro equipo de consultores, irá entrar en contacto con usted para que tenga la mejor solución posible.
+          Deje su información al lado, que nuestro equipo de consultores, entrará  en contacto con usted para que tenga la mejor solución posible.
           </p>
       </div>
       <div class="col-sm-12 col-md-6 col-lg-6 contact-form-container">
@@ -36,11 +36,11 @@ class Contact extends HTMLElement {
             <p id="errorEmail"></p>
           </div>
           <div class="label-text">
-            <label for="message" class="form-label" >Deje una mensaje</label>
+            <label for="message" class="form-label" >Deje un mensaje</label>
             <textarea class="form-control" id="message" rows="3" required></textarea>
             <p id="errorMessage"></p>
           </div>
-        <p class="pt-4">Cuentenos como encaja en nuestro negócio. usted es:</p>
+        <p class="pt-4">Cuentenos como encaja en nuestro negócio. Usted es:</p>
           <div>
             <div class="form-check mb-3">
               <input class="form-check-input radio-text" type="radio" name="choice" value="fornecedor" id="fornecedorRadio" checked>

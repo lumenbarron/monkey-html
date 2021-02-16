@@ -34,7 +34,7 @@ class NavBar extends HTMLElement {
             </div>
           </li>
           <li class="">
-              <a class="nav-link" href="quem-somos-es.html">Quienes Somos</a>
+              <a class="nav-link" href="quem-somos-es.html">Quiénes Somos</a>
             </li>
             <li class="">
               <a class="nav-link" target="_blank" href="http://help.monkey.exchange/pt-BR/">Dudas</a>
