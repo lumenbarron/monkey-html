@@ -9,6 +9,7 @@
     padding: 0 9rem !important;
 }
 
+
 .text-ancora{
     padding: 0 7rem !important;
 }
@@ -24,6 +25,12 @@
     color: $azul-roxellana;
 }
 
+.btn-investidor-header{
+    @include btn-header(185px, $verde-folha);
+    margin-top: 3rem;
+    color: $verde-folha;
+}
+
 .fornecedor-banner{
     margin-bottom: -18rem;
 }
@@ -32,27 +39,8 @@
     margin-bottom: -22rem;
 }
 
-//Fazemos Ancora
-.banner-2 {
-    margin-top: -9rem !important;
-}
-
-.col-fazemos-2{
-    padding: 3rem 3rem 0 !important;
-}
-
-.main-text-forn {
-    @include main-text($gray-600, 1.25rem);
-    padding-right: 3rem;
-    line-height: 32px;
-  }
-
-  .btn-fazemos{
-    @include btn-medium-white(360px);
-    margin-top: 3rem !important;
-    a{
-        text-decoration: none;
-    }
+.investidor-banner {
+    margin-bottom: -16rem;
 }
 
 //Vantagens
@@ -65,6 +53,16 @@
 }
 .text-info-anc{
     @include main-text($off-black, 1.5rem);
+}
+.ventagens-investor{
+    @include container-background($gray-100);
+    margin-top: 6.5rem !important;
+    padding: 11.25rem 13rem;
+}
+
+.container-brand-inv{
+    padding-top: 15rem;
+    padding-bottom: 8.5rem;
 }
 
 //Dynamic
@@ -103,6 +101,10 @@
     color: $azul-roxellana;
     font-weight: normal !important;
 }
+.text-verde{
+    color: $verde-folha;
+    font-weight: normal !important;
+}
 .row-icons{
     padding: 0 18rem 4.5rem !important;
 
@@ -116,6 +118,11 @@
 .col-icons-two{
     @include flexSpace(flex-end);
  }
+
+ .col-icons-inv{
+    @include flexSpace(flex-start);
+    padding-left: 5rem !important;
+}
 
 .col-icons-three{
     padding-right: 3rem !important;
@@ -141,6 +148,41 @@
     height: 142px;
     margin-top: -12rem;
     margin-left: 24rem;
+}
+.btn-fazemos-inv{
+    @include btn-medium-white(360px);
+    margin-top: 3rem !important;
+    color: $verde-folha;
+    a{
+        color: $verde-folha;
+        text-decoration: none;
+    }
+}
+
+.banner-2 {
+    margin-top: -9rem !important;
+}
+
+.col-fazemos-2{
+    padding: 3rem 3rem 0 !important;
+}
+
+.main-text-forn {
+    @include main-text($gray-600, 1.25rem);
+    padding-right: 3rem;
+    line-height: 32px;
+  }
+
+  .btn-fazemos{
+    @include btn-medium-white(360px);
+    margin-top: 3rem !important;
+    a{
+        text-decoration: none;
+    }
+}
+
+.container-fazemos-inv{
+    padding-top: 10rem !important;
 }
 
 //Compara
@@ -215,6 +257,11 @@ padding: 2rem !important;
 
 .midia-container-ancora {
     @include container-background($azul-roxellana);
+    @include flexCenter();
+}
+
+.midia-container-investidor {
+    @include container-background($verde-folha);
     @include flexCenter();
 }
 
