@@ -19,9 +19,9 @@ class NavBar extends HTMLElement {
             Soluciones
               </a>
               <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink1">
-                <a class="dropdown-item nav-link" href="#supplier">Proveedores</a>
-                <a class="dropdown-item nav-link" href="#investidor">Inversionistas</a>
-                <a class="dropdown-item nav-link" href="#company">Empresas</a>
+                <a class="dropdown-item nav-link" href="fornecedor-es.html">Proveedores</a>
+                <a class="dropdown-item nav-link" href="investidor-es.html">Inversionistas</a>
+                <a class="dropdown-item nav-link" href="ancora-es.html">Empresas</a>
               </div>
             </li>
             <li class="nav-item dropdown">
@@ -39,9 +39,16 @@ class NavBar extends HTMLElement {
             <li class="">
               <a class="nav-link" target="_blank" href="http://help.monkey.exchange/pt-BR/">Dudas</a>
             </li>
-            <button class="btn-full-nav mr-2">
-              PT
-          </button>
+            <div class="mb-2">
+            <button type="button" class="btn btn-primary dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+              LG
+            </button>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="index.html">PT</a></li>
+              <li><a class="dropdown-item" href="index-es.html">ES</a></li>
+              <li><a class="dropdown-item" href="index.html">EN</a></li>
+            </ul>
+          </div>
           <button class="btn-border-nav">
           <a href="#contact-es">
           ¿ Quieres conversar?

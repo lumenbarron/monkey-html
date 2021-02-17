@@ -376,9 +376,11 @@ margin-top: 2rem;
   }
   .contact-header {
     @include main-text($gray-600, 1.5rem);
+    text-align: center;
   }
   .contact-text {
     @include main-text($gray-600, 1rem);
+    text-align: center;
   }
   .label-text {
     @include main-text($gray-600, 14px);

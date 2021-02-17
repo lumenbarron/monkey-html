@@ -943,4 +943,14 @@ code {
     padding: 3rem;
   }
 }
+
+@media only screen and (max-width: 426px) {
+  .container-vantagens {
+    margin-top: 5rem;
+  }
+  .text-info-anc {
+    color: #364254;
+    font-size: 1.25rem;
+  }
+}
 /*# sourceMappingURL=ancora.css.map */

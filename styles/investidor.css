@@ -861,5 +861,14 @@ code {
     margin-top: 3rem !important;
     padding: 3rem;
   }
+  .ventagens-investor {
+    padding: 3rem 1rem;
+  }
+  .col-icons-inv {
+    padding-left: 0 !important;
+  }
+  .container-fazemos-inv {
+    padding-top: 5rem !important;
+  }
 }
 /*# sourceMappingURL=investidor.css.map */
