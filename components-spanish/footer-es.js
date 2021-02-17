@@ -69,13 +69,13 @@ class Footer extends HTMLElement {
           
           <label class="form-check-label" for="portuguesRadio">
           <a href="index.html">
-            Portugues |
+            Portugués |
             </a>
           </label>
         </div>
         <div class="radio-input">
           <label class="form-check-label" for="inglesRadio">
-            Ingles |
+            Inglés |
           </label>
         </div>
         <div class="radio-input">

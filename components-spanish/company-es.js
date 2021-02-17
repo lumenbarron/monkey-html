@@ -18,7 +18,7 @@ class Company extends HTMLElement {
             Aumente su plazo de pago y ayude a sus proveedores a
             tener una vida financiera más saludable.
           </p>
-          <a class="link-style" href="#contact">
+          <a class="link-style" href="ancora-es.html">
             Entienda las ventajas de tener un programa.
           </a>
           <div class="row icons-container-left m-0">

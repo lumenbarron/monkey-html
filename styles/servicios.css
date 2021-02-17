@@ -1180,6 +1180,10 @@ code {
   color: #ffffff;
 }
 
+.historias-investidor {
+  padding: 0 25rem !important;
+}
+
 @media only screen and (max-width: 769px) {
   .container-text-fornecedor {
     padding: 0 !important;
