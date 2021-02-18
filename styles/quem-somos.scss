@@ -6,6 +6,13 @@
     align-items: center;
 }
 
+@mixin flexDirection2($direction) {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: $direction;
+  }
+
 //Main Banner
 .text-main-about{
     padding: 4rem 12rem 1.5rem !important;
@@ -34,30 +41,35 @@
 
 .btn-main{
     @include btn-sub-header(132px);
-    margin-right: 17rem;
+    margin-right: 8rem;
     margin-top: -7rem;
     z-index: 2;
 }
 
 //Origem
 .origem-header {
-    padding: 5rem 0 0 16rem !important;
+    padding: 5rem 0 0 24rem !important;
     // padding-top: 5rem;
     // padding-left: 16rem !important;
     z-index: 1;
 }
 
 .origem-banner{
-    margin-top: -11.5rem;
+    margin: -8.5rem 0 3rem 3rem;
 }
 
 .origem-text{
-    display: flex;
-    align-self: flex-end;
-    margin-bottom: 6rem;
+    @include flexDirection(column);
+    // display: flex;
+    // justify-content: center;
+    // align-content: center;
+    padding: 0 8rem !important;
 }
 
 //Numeros
+.header-numeros{
+    margin-top: 11.25rem;
+}
 .btn-num{
     @include btn-sub-header(162px);
     margin-top: -8rem !important;
@@ -83,16 +95,25 @@
 }
 
 //Negocio
+
+.negocio-header {
+   text-align: end;
+   z-index: 1; 
+}
 .row-container{
     margin-top: -8rem !important;
 }
 
 .negocio-text{
-    @include flexAlign();
+    // @include flexAlign();
     // display: flex;
     // justify-content: center;
     // align-items: center;
+    @include flexDirection(column);
     padding: 0 5rem;
+}
+.negocio-banner{
+border-radius: 32px;
 }
 
 //SPIKE
@@ -123,7 +144,7 @@
 }
 
 .equipe-header-1{
-    margin-left: 11.25rem;
+    padding-left: 11.25rem !important;
     margin-bottom: -5rem;
 }
 
@@ -202,9 +223,9 @@
         margin-top: -7.5rem;
         width: 100%;
     }
-    .origem-text{
-        margin-bottom: 0rem;
-    }
+    // .origem-text{
+    //     margin-bottom: 0rem;
+    // }
     .btn-num{
         margin-top: -7rem !important;
         margin-left: 32rem;
@@ -278,6 +299,7 @@
     }
     .origem-banner {
         margin-top: 0 !important;
+        margin-left: 0 !important;
     }
     .equipe-header-2 {
         padding-left: 0 !important;

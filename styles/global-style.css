@@ -67,6 +67,10 @@ code {
   color: #4b4a53 !important;
 }
 
+.main-nav .container-nav li #navbarLink2 {
+  color: #ffffff !important;
+}
+
 .main-nav .btn-full-nav {
   width: 40px;
   height: 40px;
@@ -765,5 +769,10 @@ code {
 
 .center-text {
   text-align: center;
+}
+
+.text-blue {
+  color: #0273e8;
+  font-weight: normal !important;
 }
 /*# sourceMappingURL=global-style.css.map */

@@ -850,6 +850,10 @@ code {
   padding-bottom: 8.5rem;
 }
 
+.historias-investidor {
+  padding: 0 25rem !important;
+}
+
 @media only screen and (max-width: 769px) {
   .btn-investidor-header {
     margin-top: 2rem;
@@ -869,6 +873,9 @@ code {
   }
   .container-fazemos-inv {
     padding-top: 5rem !important;
+  }
+  .historias-investidor {
+    padding: 0 !important;
   }
 }
 /*# sourceMappingURL=investidor.css.map */

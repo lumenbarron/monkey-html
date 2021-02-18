@@ -4,7 +4,7 @@ class Numeros extends HTMLElement {
     }
     connectedCallback() {
       this.innerHTML = `
-      <div class="container-fluid" id="numeros">
+      <div class="container-fluid header-numeros" id="numeros">
       <div class="row p-0">
         <h2 class="big-header" id="num-head">
           NÚMEROS

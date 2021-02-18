@@ -179,6 +179,9 @@ line-height: 24px;
       a {
         color: $gray-600 !important;
       }
+      #navbarLink2{
+        color: $branco-uacari !important;
+      }
     }
   }
   .btn-full-nav {
@@ -582,4 +585,8 @@ line-height: 24px;
 }
 .center-text{
   text-align: center;
+}
+.text-blue{
+  color: $azul-roxellana;
+  font-weight: normal !important;
 }

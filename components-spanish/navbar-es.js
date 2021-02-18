@@ -39,16 +39,16 @@ class NavBar extends HTMLElement {
             <li class="">
               <a class="nav-link" target="_blank" href="http://help.monkey.exchange/pt-BR/">Dudas</a>
             </li>
-            <div class="mb-2">
-            <button type="button" class="btn btn-primary dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
-              LG
-            </button>
-            <ul class="dropdown-menu">
-              <li><a class="dropdown-item" href="index.html">PT</a></li>
-              <li><a class="dropdown-item" href="index-es.html">ES</a></li>
-              <li><a class="dropdown-item" href="index.html">EN</a></li>
-            </ul>
-          </div>
+            <li class="nav-item dropdown mb-2 mr-2">
+            <a type="button" class="btn btn-primary dropdown-toggle" href="#" id="navbarLink2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Idioma
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarLink2">
+              <a class="dropdown-item" href="index.html">PT</a>
+              <a class="dropdown-item" href="index-es.html">ES</a>
+              <a class="dropdown-item" href="index.html">EN</a>
+              </div>
+          </li>
           <button class="btn-border-nav">
           <a href="#contact-es">
           ¿ Quieres conversar?
