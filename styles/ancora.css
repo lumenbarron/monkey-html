@@ -67,6 +67,10 @@ code {
   color: #4b4a53 !important;
 }
 
+.main-nav .container-nav li #navbarLink2 {
+  color: #ffffff !important;
+}
+
 .main-nav .btn-full-nav {
   width: 40px;
   height: 40px;
@@ -767,6 +771,11 @@ code {
   text-align: center;
 }
 
+.text-blue {
+  color: #0273e8;
+  font-weight: normal !important;
+}
+
 .container-text-ancora {
   padding: 0 9rem !important;
 }
@@ -938,9 +947,13 @@ code {
     margin-top: 3rem !important;
     padding: 3rem;
   }
-  .sustentavel-container-ancor {
+  .sustentavel-container-ancora {
     margin-top: 3rem !important;
     padding: 3rem;
+    width: 100%;
+  }
+  .container-dynamic {
+    margin-top: 5rem !important;
   }
 }
 

@@ -67,6 +67,10 @@ code {
   color: #4b4a53 !important;
 }
 
+.main-nav .container-nav li #navbarLink2 {
+  color: #ffffff !important;
+}
+
 .main-nav .btn-full-nav {
   width: 40px;
   height: 40px;
@@ -767,6 +771,11 @@ code {
   text-align: center;
 }
 
+.text-blue {
+  color: #0273e8;
+  font-weight: normal !important;
+}
+
 .btn-investidor-header {
   width: 185px !important;
   height: 40px;
@@ -859,7 +868,7 @@ code {
     margin-top: 2rem;
   }
   .investidor-banner {
-    margin-bottom: -12rem;
+    margin-bottom: -10rem;
   }
   .midia-container-investidor {
     margin-top: 3rem !important;
