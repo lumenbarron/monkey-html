@@ -14,6 +14,9 @@ class NavBar extends HTMLElement {
       </button>
       <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
         <ul class="navbar-nav me-auto mb-2 mb-lg-0 container-nav m-0">
+        <li class="">
+        <a class="nav-link" href="index.html">Início</a>
+      </li>
           <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
           Soluções
