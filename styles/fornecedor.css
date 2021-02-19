@@ -113,7 +113,7 @@ code {
 
 .main-header {
   color: #0273e8;
-  font-size: 3rem;
+  font-size: 4rem;
   font-weight: bold;
 }
 
@@ -490,7 +490,7 @@ code {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  background-image: url(../../../images/news-2.png);
+  background-image: url(../../../images/Aperam-news.png);
   background-size: contain;
   background-repeat: no-repeat;
   padding: 1.5rem;
@@ -510,7 +510,7 @@ code {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  background-image: url(../../../images/news-3.png);
+  background-image: url(../../../images/investimento-news.png);
   background-size: contain;
   background-repeat: no-repeat;
   padding: 1.5rem;
@@ -530,7 +530,47 @@ code {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  background-image: url(../../../images/news-4.png);
+  background-image: url(../../../images/Felipe-adorno-news.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  padding: 1.5rem;
+  margin-left: 1.5rem;
+}
+
+.news-container5 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  background-image: url(../../../images/gustavo-news.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  padding: 1.5rem;
+  margin-left: 1.5rem;
+}
+
+.news-container6 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  background-image: url(../../../images/Spike-news.png);
   background-size: contain;
   background-repeat: no-repeat;
   padding: 1.5rem;
@@ -540,7 +580,7 @@ code {
 .data-text {
   color: #9c9ca6;
   font-size: 14px;
-  margin-top: 17rem;
+  margin-top: 14rem;
   width: 272px;
 }
 
@@ -549,6 +589,14 @@ code {
   font-size: 1.25rem;
   font-weight: 600;
   width: 272px;
+}
+
+.title-new a {
+  text-decoration: none;
+}
+
+.title-new-a {
+  text-decoration: none;
 }
 
 .button-container {
@@ -926,6 +974,7 @@ code {
   border: 1px solid #0273e8 !important;
   border-radius: 16px;
   padding: 2rem !important;
+  height: 100%;
 }
 
 .text-user {
@@ -1080,6 +1129,7 @@ code {
   }
   .container-user {
     margin-bottom: 2rem;
+    height: auto;
   }
   .midia-container {
     margin-top: 3rem !important;

@@ -31,6 +31,7 @@
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/glider-js@1.7.3/glider.min.css"
     />
+    <script src="https://cdn.jsdelivr.net/npm/glider-js@1.7.3/glider.min.js"></script>
     <script src="./app.js"></script>
   </head>
   <body>
@@ -211,7 +212,19 @@
           </div>
         </div>
       </div>
-      <news-section></news-section>
+
+      <div class="container-fluid px-0">
+        <div class="row container-title m-0">
+          <h4 class="brand-text">Estamos en todos lados</h4>
+        </div>
+        <news-section></news-section>
+        <div class="row m-0 button-container">
+          <button class="button-news">
+            Explore todas nuestras noticias
+            </button>
+        </div>
+      </div>
+      
       <contact-section></contact-section>
       <footer-section></footer-section>
     </section>
@@ -223,7 +236,7 @@
     <script src="./components-spanish/news-es.js"></script>
     <script src="./components-spanish/contact-es.js"></script>
     <script src="./components-spanish/footer-es.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/glider-js@1.7.3/glider.min.js"></script>
+
     
     <script
       src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"

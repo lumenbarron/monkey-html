@@ -27,7 +27,7 @@ class NavBar extends HTMLElement {
                 <a class="dropdown-item nav-link" href="ancora-es.html">Empresas</a>
               </div>
             </li>
-            <li class="nav-item dropdown">
+            <!-- <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
           Productos
             </a>
@@ -35,7 +35,7 @@ class NavBar extends HTMLElement {
               <a class="dropdown-item nav-link" href="#">Cadena de Suministro</a>
               <a class="dropdown-item nav-link" href="#">Spike</a>
             </div>
-          </li>
+          </li> -->
           <li class="">
               <a class="nav-link" href="quem-somos-es.html">Quiénes Somos</a>
             </li>

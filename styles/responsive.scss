@@ -318,7 +318,7 @@ margin-top: 2rem;
   }
   .title-new {
     @include main-text($branco-uacari, 1rem);
-    width: auto;
+    width: 250px;
   }
   @mixin news-container($image) {
     @include flexDirection(column);
@@ -340,17 +340,23 @@ margin-top: 2rem;
   .news-container1 {
     @include news-container(url(../../../images/news-1.png));
   }
-
+  
   .news-container2 {
-    @include news-container(url(../../../images/news-2.png));
+    @include news-container(url(../../../images/Aperam-news.png));
   }
-
+  
   .news-container3 {
-    @include news-container(url(../../../images/news-3.png));
+    @include news-container(url(../../../images/investimento-news.png));
   }
-
+  
   .news-container4 {
-    @include news-container(url(../../../images/news-4.png));
+    @include news-container(url(../../../images/Felipe-adorno-news.png));
+  }
+  .news-container5 {
+    @include news-container(url(../../../images/gustavo-news.png));
+  }
+  .news-container6 {
+    @include news-container(url(../../../images/Spike-news.png));
   }
   .button-container {
     // @include flexCenter();

@@ -71,9 +71,9 @@
           <div class="container-fluid" id="origem-es">
             <div class="row p-0">
               <h1 class="big-header origem-header">ORIGEN</h1>
-              <div class="container-btn">
+              <!-- <div class="container-btn"> -->
                 <button class="btn-main">2016</button>
-              </div>
+              <!-- </div> -->
             </div>
             <div class="row">
               <div class="col-sm-12 col-md-12 col-lg-6 flex-general p-0">
@@ -166,20 +166,50 @@
               </div>
             </div>
             <div class="row">
-              <img src="images/equipe.png" class="" alt="sobrenos" />
+              <img src="images/nosso-time.jpg" class="" alt="sobrenos" />
             </div>
           </div>
           <!-- NUMEROS -->
           <numeros-section></numeros-section>
           <!-- SOCIAL MEDIA -->
-          <midia-section></midia-section>
+          <!-- <midia-section></midia-section> -->
+          <div class="container-fluid container-midia" id="nossa-equipe">
+            <div class="row">
+              <h1 class="big-header" id="monkey-head">MONKEY</h1>
+               <button class="btn-midia">NOTICIAS</button>
+            </div>
+            <div class="row">
+              <div class="col-sm-12 col-md-12 col-lg-5 container-col">
+                <img src="images/estadao.svg" class="estadao" alt="estadao" />
+              </div>
+              <div class="col-sm-12 col-md-12 col-lg-7 container-info-midia">
+                <h1 class="header-midia mb-4">Fintech Monkey Exchange invertirá hasta R$ 7 millones para llegar a Chile</h1>
+                <p class="text-midia">
+                  Monkey Exchange, marketplace que conecta empresas a instituciones financieras para adelantar
+                  facturas, se prepara para poner los pies fuera de Brasil.
+                </p>
+                <a class="link-style" href="">
+                  Lea Más
+                </a>
+              </div>
+            </div>
+            <div class="row row-images">
+              <img src="images/segs.png" class="brand-size-midia" alt="segs" />
+              <img src="images/ipnews.png" class="brand-size-midia" alt="ipnews" />
+              <img src="images/exame.png" class="brand-size-midia" id="exame" alt="exame" />
+              <img src="images/aws.png" class="brand-size-midia" alt="aws" />
+            </div>
+            <news-section></news-section>
+          </div>
+          
         </div>
       </div>
       <contact-section></contact-section>
       <footer-section></footer-section>
     </section>
     <script src="https://cdn.jsdelivr.net/npm/sweetalert2@10"></script>
-    <script src="./components/navbar.js"></script>
+    <script src="./components-spanish/navbar-es.js"></script>
+    <script src="./components-spanish/news-es.js"></script>
     <script src="./quem-somos-es/numeros-es.js"></script>
     <script src="./quem-somos-es/social-midia-es.js"></script>
     <script src="./components/contact.js"></script>

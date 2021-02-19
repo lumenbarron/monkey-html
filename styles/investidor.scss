@@ -74,6 +74,8 @@
     }
     .col-icons-inv{
         padding-left: 0 !important;
+        margin-bottom: 2rem !important;
+        @include flexSpace(flex-start);
     }
     .container-fazemos-inv{
         padding-top: 5rem !important;

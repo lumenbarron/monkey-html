@@ -1,7 +1,7 @@
 window.addEventListener('load', function(){
     new Glider (document.querySelector('.carousel-list'), {
-        slidesToShow: 4,
-        slidesToScroll: 4,
+        slidesToShow: 1.5,
+        slidesToScroll: 1,
         draggable: true,
         dots: '.dots',
         arrows: {
@@ -34,15 +34,16 @@ window.addEventListener('load', function(){
         {
           // screens greater than >= 1024px
           breakpoint: 1024,
+          // rewind: true,
           settings: {
             slidesToShow: 4,
             slidesToScroll: 1,
             itemWidth: 150,
+            // exactWidth: true,
             duration: 0.25
           }
         },
         {
-          // screens greater than >= 1024px
           breakpoint: 768,
           settings: {
             slidesToShow: 2,
