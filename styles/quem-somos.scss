@@ -6,6 +6,13 @@
     align-items: center;
 }
 
+@mixin flexDirection2($direction) {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: $direction;
+  }
+
 //Main Banner
 .text-main-about{
     padding: 4rem 12rem 1.5rem !important;
@@ -34,30 +41,35 @@
 
 .btn-main{
     @include btn-sub-header(132px);
-    margin-right: 17rem;
-    margin-top: -7rem;
+    margin-top: -7rem !important;
+    margin-left: 70rem !important;
     z-index: 2;
 }
 
 //Origem
 .origem-header {
-    padding: 5rem 0 0 16rem !important;
+    padding: 5rem 0 0 24rem !important;
     // padding-top: 5rem;
     // padding-left: 16rem !important;
     z-index: 1;
 }
 
 .origem-banner{
-    margin-top: -11.5rem;
+    margin: -8.5rem 0 3rem 3rem;
 }
 
 .origem-text{
-    display: flex;
-    align-self: flex-end;
-    margin-bottom: 6rem;
+    @include flexDirection(column);
+    // display: flex;
+    // justify-content: center;
+    // align-content: center;
+    padding: 0 8rem !important;
 }
 
 //Numeros
+.header-numeros{
+    margin-top: 11.25rem;
+}
 .btn-num{
     @include btn-sub-header(162px);
     margin-top: -8rem !important;
@@ -83,16 +95,25 @@
 }
 
 //Negocio
+
+.negocio-header {
+   text-align: end;
+   z-index: 1; 
+}
 .row-container{
     margin-top: -8rem !important;
 }
 
 .negocio-text{
-    @include flexAlign();
+    // @include flexAlign();
     // display: flex;
     // justify-content: center;
     // align-items: center;
+    @include flexDirection(column);
     padding: 0 5rem;
+}
+.negocio-banner{
+border-radius: 32px;
 }
 
 //SPIKE
@@ -123,7 +144,7 @@
 }
 
 .equipe-header-1{
-    margin-left: 11.25rem;
+    padding-left: 11.25rem !important;
     margin-bottom: -5rem;
 }
 
@@ -138,8 +159,8 @@
 }
 .btn-midia{
     @include btn-sub-header(169px);
-    margin-right: 27rem;
-    margin-top: -7rem;
+    margin-left: 50rem;
+    margin-top: -7rem !important;
     z-index: 2;
 }
 
@@ -177,22 +198,20 @@
     height: 1.5rem;
 }
 
-@media only screen and (max-width: 769px){
-
-  }
 
 @media only screen and (max-width: 769px){
     .text-main-about{
         padding: 2rem 0 !important;
     }
     .btn-main{
-        margin-right: 0rem;
+        margin-left: 32rem !important;
     }
     .text-about{
         padding: 0 !important;
     }
     .origem-header{
-        padding: 0 !important;
+        padding: 3rem 0 0 0 !important;
+        // text-align: center;
     }
     .big-header{
         font-size: 9rem;
@@ -203,8 +222,13 @@
         width: 100%;
     }
     .origem-text{
-        margin-bottom: 0rem;
+        padding: 0 !important;
+        margin-bottom: 2rem !important;
+        // text-align: center;
     }
+    .negocio-banner{
+        width: 100%;
+        }
     .btn-num{
         margin-top: -7rem !important;
         margin-left: 32rem;
@@ -218,14 +242,23 @@
     .text-spike {
         padding: 2rem !important;
 }
+.header-numeros{
+    margin-top: 3rem;
+}
 .container-equipe{
     margin-top: 3rem;
 }
 .equipe-header-1{
-    margin-left: 0;
+    padding-left: 2rem !important;
 }
 .equipe-header-2{
     padding-left: 10rem !important; 
+}
+.equipe-header-1-es{
+    padding-left: 0 !important;
+}
+.equipe-header-2-es{
+    padding-left: 1rem !important; 
 }
 .equipe-text{
     padding-top: 0rem;
@@ -235,7 +268,7 @@
     margin-top: 1rem;
 }
 .btn-midia{
-    margin-right: -4rem;
+    margin-left: 32rem;
 }
 .container-info-midia{
     padding-right: 0 !important;
@@ -261,26 +294,34 @@
     #monkey-head{
         font-size: 4rem;
     }
+    .row-container{
+        margin-top: 0 !important;
+    }
     .btn-main{
-        margin-right: 0;
-        margin-top: -1rem;
+        @include btn-sub-header(80px);
+        margin-left: 15rem !important;
+        margin-top: -4rem !important;
         height: 32px;
     }
+    .negocio-text{
+        padding: 3rem 0;
+    }
     .btn-num {
-        margin-left: 7rem;
+        @include btn-sub-header(100px);
+        z-index: 2;
+        margin-left: 15rem;
         margin-top: -1rem !important;
         height: 32px;
     }
     .btn-midia {
-        margin-right: -1rem;
-        margin-top: -1rem;
+        @include btn-sub-header(100px);
+        margin-left: 15rem;
+        margin-top: -4rem !important;
         height: 32px;
     }
     .origem-banner {
         margin-top: 0 !important;
-    }
-    .equipe-header-2 {
-        padding-left: 0 !important;
+        margin-left: 0 !important;
     }
     .estadao{
         width: 100%;
@@ -290,7 +331,11 @@
         margin-bottom: -2rem;
     }
     .equipe-header-2 {
-        padding-left: 2rem !important;
+        padding-top: 1rem !important;
+        padding-left: 9rem !important;
+    }
+    .equipe-header-2-es{
+        padding-left: 5rem !important; 
     }
     .header-midia{
         @include main-text($gray-500, 1.5rem);

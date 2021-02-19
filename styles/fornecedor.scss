@@ -68,13 +68,13 @@
 .col-fazemos{
     padding-left: 3rem !important;
 }
-// .banner-two{
-//     margin-top: -13rem !important;
-// }
+.banner-two{
+    width: 100%;
+}
 .bannner-two-lines{
     background: url(../images/como-fazemos-two-lines.png);
     background-repeat: no-repeat;
-    width: 100%;
+    width: auto;
     height: 142px;
     margin-top: -12rem;
     margin-left: 24rem;
@@ -122,6 +122,7 @@ padding-bottom: 3rem !important;
 border: 1px solid $azul-roxellana !important;
 border-radius: 16px;
 padding: 2rem !important;
+height: 100%;
 }
 
 .text-user{
@@ -174,12 +175,14 @@ padding: 2rem !important;
     } 
     .row-icons {
         padding: 0 !important;
+        @include flexDirection(column)
     }  
     .text-info-icons{
         @include main-text($off-black, 1.5rem);
     } 
     .col-icons{
         margin-bottom: 2rem !important;
+        // @include flexSpace(center);
      }
      .col-icons-two{
          @include flexSpace(flex-start);
@@ -195,16 +198,23 @@ padding: 2rem !important;
       .col-fazemos{
         padding-left: 0 !important;
     }
-    // .banner-two {
-    //     margin-top: 0 !important;
-    //     width: 100%;
-    // }
+
+    .margin-fazemos{
+        margin-top: 8rem;
+    }
+
+    .banner-two {
+        margin-top: 0 !important;
+        width: 100%;
+    }
     .bannner-two-lines{
         background: url(../images/como-fazemos-two-line.png);
         background-repeat: no-repeat;
-        margin-top: -3rem;
-        margin-left: 11rem;
+        margin-top: -1rem;
+        margin-left: 6rem;
         width: 10%;
+        height: 50%;
+        background-size:contain
     }
     .container-compara {
         margin-top: 2rem !important;
@@ -236,10 +246,11 @@ padding: 2rem !important;
     .container-text-solucoes{
 
         // padding: 0 18rem !important;
-        margin-bottom: 1rem;
+        margin-bottom: 1rem !important;
     }
     .container-user{
         margin-bottom: 2rem;
+        height: auto;
     }
     .midia-container {
         margin-top: 3rem !important;
@@ -275,7 +286,13 @@ padding: 2rem !important;
     .main-text-forn {
         @include main-text($gray-600, 1rem);
       }
+      .text-compara{
+        @include main-text($gray-300, 1rem);
+    }
       .midia-container {
         padding: 3rem 1rem;
+    }
+    .flex-container{
+        justify-content: flex-start;
     }
     }

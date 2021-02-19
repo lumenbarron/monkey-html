@@ -7,7 +7,7 @@ class Midia extends HTMLElement {
       <div class="container-fluid container-midia" id="nossa-equipe">
       <div class="row">
         <h1 class="big-header" id="monkey-head">MONKEY</h1>
-        <div class="container-btn"> <button class="btn-midia">NA MÍDIA</button></div>
+        <button class="btn-midia">NA MÍDIA</button>
       </div>
       <div class="row">
         <div class="col-sm-12 col-md-12 col-lg-5 container-col">
@@ -38,6 +38,7 @@ class Midia extends HTMLElement {
         <img src="images/aws.png" class="brand-size-midia" alt="aws" />
 
       </div>
+      <news-section></news-section>
     </div>
           `;
     }

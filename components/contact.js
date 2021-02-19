@@ -40,7 +40,7 @@ class Contact extends HTMLElement {
             <textarea class="form-control" id="message" rows="3" required></textarea>
             <p id="errorMessage"></p>
           </div>
-        <p class="pt-4">Conte para gente como você se enquadra em nosso negócio. Você:</p>
+        <p class="pt-4 contact-text">Conte para gente como você se enquadra em nosso negócio. Você:</p>
           <div>
             <div class="form-check mb-3">
               <input class="form-check-input radio-text" type="radio" name="choice" value="fornecedor" id="fornecedorRadio" checked>

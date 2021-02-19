@@ -9,16 +9,16 @@ class Company extends HTMLElement {
         <div
           class="col-sm-12 col-md-12 col-lg-6 text-container p-0"
         >
-          <button class="btn-company mb-3">Âncora</button>
+          <button class="btn-company mb-3">Patrocinador</button>
           <h2 class="title-h2">
             En Monkey, llamamos a los clientes que son dueños de
-            programas como âncora.
+            programas como patrocinador.
           </h2>
           <p class="main-text">
             Aumente su plazo de pago y ayude a sus proveedores a
             tener una vida financiera más saludable.
           </p>
-          <a class="link-style" href="#contact">
+          <a class="link-style" href="ancora-es.html">
             Entienda las ventajas de tener un programa.
           </a>
           <div class="row icons-container-left m-0">
