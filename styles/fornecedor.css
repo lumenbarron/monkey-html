@@ -824,6 +824,17 @@ code {
   font-weight: normal !important;
 }
 
+.flex-general {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
+}
+
 .container-text-fornecedor {
   padding: 0 13rem !important;
 }
@@ -915,10 +926,14 @@ code {
   padding-left: 3rem !important;
 }
 
+.banner-two {
+  width: 100%;
+}
+
 .bannner-two-lines {
   background: url(../images/como-fazemos-two-lines.png);
   background-repeat: no-repeat;
-  width: 100%;
+  width: auto;
   height: 142px;
   margin-top: -12rem;
   margin-left: 24rem;

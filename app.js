@@ -31,6 +31,18 @@ window.addEventListener('load', function(){
       //       duration: 0.25
       //     }
       //   },
+      {
+        // screens greater than >= 1024px
+        breakpoint: 1700,
+        // rewind: true,
+        settings: {
+          slidesToShow: 5,
+          slidesToScroll: 1,
+          itemWidth: 200,
+          // exactWidth: true,
+          duration: 0.25
+        }
+      },
         {
           // screens greater than >= 1024px
           breakpoint: 1024,

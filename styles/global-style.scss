@@ -602,3 +602,6 @@ line-height: 24px;
   color: $azul-roxellana;
   font-weight: normal !important;
 }
+.flex-general{
+  @include flexCenter();
+}
